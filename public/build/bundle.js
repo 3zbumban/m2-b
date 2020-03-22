@@ -3425,7 +3425,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (85:3) {:else}
+    // (76:3) {:else}
     function create_else_block_2(ctx) {
     	let span;
     	let t0;
@@ -3440,7 +3440,7 @@ var app = (function () {
     			t1 = text(t1_value);
     			t2 = text(" case not found!!");
     			attr_dev(span, "class", "svelte-ttnnnc");
-    			add_location(span, file, 85, 4, 2730);
+    			add_location(span, file, 76, 4, 2259);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -3460,14 +3460,14 @@ var app = (function () {
     		block,
     		id: create_else_block_2.name,
     		type: "else",
-    		source: "(85:3) {:else}",
+    		source: "(76:3) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (83:30) 
+    // (74:30) 
     function create_if_block_6(ctx) {
     	let span1;
     	let span0;
@@ -3482,13 +3482,13 @@ var app = (function () {
     			span0.textContent = "📷";
     			img = element("img");
     			attr_dev(span0, "class", "svelte-ttnnnc");
-    			add_location(span0, file, 83, 10, 2661);
+    			add_location(span0, file, 74, 10, 2190);
     			if (img.src !== (img_src_value = /*t*/ ctx[21].link)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*t*/ ctx[21].text);
     			attr_dev(img, "class", "svelte-ttnnnc");
-    			add_location(img, file, 83, 25, 2676);
+    			add_location(img, file, 74, 25, 2205);
     			attr_dev(span1, "class", "svelte-ttnnnc");
-    			add_location(span1, file, 83, 4, 2655);
+    			add_location(span1, file, 74, 4, 2184);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span1, anchor);
@@ -3513,14 +3513,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(83:30) ",
+    		source: "(74:30) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (75:32) 
+    // (66:32) 
     function create_if_block_5(ctx) {
     	let span3;
     	let span0;
@@ -3551,16 +3551,16 @@ var app = (function () {
     			t4 = text("@");
     			t5 = text(t5_value);
     			attr_dev(span0, "class", "svelte-ttnnnc");
-    			add_location(span0, file, 76, 5, 2439);
+    			add_location(span0, file, 67, 5, 1968);
     			attr_dev(a, "href", a_href_value = /*t*/ ctx[21].link);
     			attr_dev(a, "class", "svelte-ttnnnc");
-    			add_location(a, file, 78, 6, 2473);
+    			add_location(a, file, 69, 6, 2002);
     			attr_dev(span1, "class", "svelte-ttnnnc");
-    			add_location(span1, file, 77, 5, 2460);
+    			add_location(span1, file, 68, 5, 1989);
     			attr_dev(span2, "class", "time svelte-ttnnnc");
-    			add_location(span2, file, 80, 5, 2572);
+    			add_location(span2, file, 71, 5, 2101);
     			attr_dev(span3, "class", "svelte-ttnnnc");
-    			add_location(span3, file, 75, 4, 2427);
+    			add_location(span3, file, 66, 4, 1956);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, span3, anchor);
@@ -3595,14 +3595,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(75:32) ",
+    		source: "(66:32) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (68:31) 
+    // (59:31) 
     function create_if_block_4(ctx) {
     	let span2;
     	let span0;
@@ -3623,16 +3623,16 @@ var app = (function () {
     			a = element("a");
     			t2 = text(t2_value);
     			attr_dev(span0, "class", "svelte-ttnnnc");
-    			add_location(span0, file, 69, 5, 2259);
+    			add_location(span0, file, 60, 5, 1788);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "rel", "noopener noreferrer");
     			attr_dev(a, "href", a_href_value = /*t*/ ctx[21].link);
     			attr_dev(a, "class", "svelte-ttnnnc");
-    			add_location(a, file, 71, 6, 2293);
+    			add_location(a, file, 62, 6, 1822);
     			attr_dev(span1, "class", "svelte-ttnnnc");
-    			add_location(span1, file, 70, 5, 2280);
+    			add_location(span1, file, 61, 5, 1809);
     			attr_dev(span2, "class", "svelte-ttnnnc");
-    			add_location(span2, file, 68, 4, 2247);
+    			add_location(span2, file, 59, 4, 1776);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span2, anchor);
@@ -3658,14 +3658,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(68:31) ",
+    		source: "(59:31) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (66:3) {#if t.type === "text"}
+    // (57:3) {#if t.type === "text"}
     function create_if_block_3(ctx) {
     	let span;
     	let t0;
@@ -3678,7 +3678,7 @@ var app = (function () {
     			t0 = text("📃");
     			t1 = text(t1_value);
     			attr_dev(span, "class", "f2 svelte-ttnnnc");
-    			add_location(span, file, 66, 4, 2176);
+    			add_location(span, file, 57, 4, 1705);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -3697,14 +3697,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(66:3) {#if t.type === \\\"text\\\"}",
+    		source: "(57:3) {#if t.type === \\\"text\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (92:4) {:else}
+    // (83:4) {:else}
     function create_else_block_1(ctx) {
     	let span;
 
@@ -3713,7 +3713,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "✔";
     			attr_dev(span, "class", "svelte-ttnnnc");
-    			add_location(span, file, 92, 5, 2912);
+    			add_location(span, file, 83, 5, 2441);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -3727,14 +3727,14 @@ var app = (function () {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(92:4) {:else}",
+    		source: "(83:4) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (90:4) {#if !!t.done}
+    // (81:4) {#if !!t.done}
     function create_if_block_2(ctx) {
     	let span;
 
@@ -3743,7 +3743,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "❌";
     			attr_dev(span, "class", "svelte-ttnnnc");
-    			add_location(span, file, 90, 5, 2880);
+    			add_location(span, file, 81, 5, 2409);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -3757,14 +3757,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(90:4) {#if !!t.done}",
+    		source: "(81:4) {#if !!t.done}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (63:2) {#each data[themen[currentThema]] as t, i}
+    // (54:2) {#each data[themen[currentThema]] as t, i}
     function create_each_block(ctx) {
     	let div2;
     	let div0;
@@ -3813,17 +3813,17 @@ var app = (function () {
     			if_block1.c();
     			t1 = space();
     			attr_dev(div0, "class", "svelte-ttnnnc");
-    			add_location(div0, file, 64, 3, 2139);
+    			add_location(div0, file, 55, 3, 1668);
     			attr_dev(span, "class", "toggler svelte-ttnnnc");
-    			add_location(span, file, 88, 9, 2804);
+    			add_location(span, file, 79, 9, 2333);
     			attr_dev(div1, "class", "svelte-ttnnnc");
-    			add_location(div1, file, 88, 4, 2799);
+    			add_location(div1, file, 79, 4, 2328);
 
     			attr_dev(div2, "class", div2_class_value = "" + ((/*active*/ ctx[3].text === /*t*/ ctx[21].text && /*active*/ ctx[3].time === /*t*/ ctx[21].time
     			? "active"
     			: "") + " " + (/*t*/ ctx[21].done ? "done" : "") + " topic" + " svelte-ttnnnc"));
 
-    			add_location(div2, file, 63, 2, 1966);
+    			add_location(div2, file, 54, 2, 1495);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, div2, anchor);
@@ -3884,14 +3884,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(63:2) {#each data[themen[currentThema]] as t, i}",
+    		source: "(54:2) {#each data[themen[currentThema]] as t, i}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (111:1) {#if currentVid !== ""}
+    // (102:1) {#if currentVid !== ""}
     function create_if_block_1(ctx) {
     	let iframe;
     	let iframe_src_value;
@@ -3907,7 +3907,7 @@ var app = (function () {
     			attr_dev(iframe, "allow", "autoplay; encrypted-media; picture-in-picture");
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "class", "svelte-ttnnnc");
-    			add_location(iframe, file, 111, 2, 3303);
+    			add_location(iframe, file, 102, 2, 2832);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, iframe, anchor);
@@ -3926,14 +3926,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(111:1) {#if currentVid !== \\\"\\\"}",
+    		source: "(102:1) {#if currentVid !== \\\"\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (120:1) {:else}
+    // (111:1) {:else}
     function create_else_block(ctx) {
     	let div1;
     	let div0;
@@ -3944,10 +3944,10 @@ var app = (function () {
     			div1 = element("div");
     			div0 = element("div");
     			attr_dev(div0, "class", "svelte-ttnnnc");
-    			add_location(div0, file, 121, 4, 3759);
+    			add_location(div0, file, 112, 4, 3288);
     			attr_dev(div1, "id", "preview");
     			attr_dev(div1, "class", "svelte-ttnnnc");
-    			add_location(div1, file, 120, 3, 3736);
+    			add_location(div1, file, 111, 3, 3265);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -3965,14 +3965,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(120:1) {:else}",
+    		source: "(111:1) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (118:1) {#if !prewiev}
+    // (109:1) {#if !prewiev}
     function create_if_block(ctx) {
     	let textarea;
     	let dispose;
@@ -3986,7 +3986,7 @@ var app = (function () {
     			attr_dev(textarea, "rows", "10");
     			attr_dev(textarea, "placeholder", "take notes here...");
     			attr_dev(textarea, "class", "svelte-ttnnnc");
-    			add_location(textarea, file, 118, 3, 3597);
+    			add_location(textarea, file, 109, 3, 3126);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, textarea, anchor);
@@ -4009,7 +4009,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(118:1) {#if !prewiev}",
+    		source: "(109:1) {#if !prewiev}",
     		ctx
     	});
 
@@ -4107,43 +4107,43 @@ var app = (function () {
     			button2 = element("button");
     			button2.textContent = "⚡";
     			attr_dev(p, "class", " svelte-ttnnnc");
-    			add_location(p, file, 59, 2, 1835);
+    			add_location(p, file, 50, 2, 1364);
     			attr_dev(div0, "id", "currentTopic");
     			attr_dev(div0, "class", "svelte-ttnnnc");
-    			add_location(div0, file, 58, 1, 1809);
+    			add_location(div0, file, 49, 1, 1338);
     			attr_dev(div1, "id", "themen");
     			attr_dev(div1, "class", "svelte-ttnnnc");
-    			add_location(div1, file, 61, 1, 1901);
+    			add_location(div1, file, 52, 1, 1430);
     			attr_dev(span0, "class", " svelte-ttnnnc");
-    			add_location(span0, file, 101, 4, 3079);
+    			add_location(span0, file, 92, 4, 2608);
     			attr_dev(button0, "class", " svelte-ttnnnc");
-    			add_location(button0, file, 100, 3, 3023);
+    			add_location(button0, file, 91, 3, 2552);
     			attr_dev(span1, "class", " svelte-ttnnnc");
-    			add_location(span1, file, 104, 4, 3182);
+    			add_location(span1, file, 95, 4, 2711);
     			attr_dev(button1, "class", " svelte-ttnnnc");
-    			add_location(button1, file, 103, 3, 3126);
+    			add_location(button1, file, 94, 3, 2655);
     			attr_dev(div2, "id", "control");
     			attr_dev(div2, "class", "svelte-ttnnnc");
-    			add_location(div2, file, 98, 1, 2984);
+    			add_location(div2, file, 89, 1, 2513);
     			attr_dev(div3, "id", "material");
     			attr_dev(div3, "class", "svelte-ttnnnc");
-    			add_location(div3, file, 57, 0, 1788);
+    			add_location(div3, file, 48, 0, 1317);
     			attr_dev(div4, "id", "video");
     			attr_dev(div4, "class", "svelte-ttnnnc");
-    			add_location(div4, file, 109, 0, 3259);
+    			add_location(div4, file, 100, 0, 2788);
     			attr_dev(div5, "id", "pad");
     			attr_dev(div5, "class", "svelte-ttnnnc");
-    			add_location(div5, file, 116, 2, 3563);
+    			add_location(div5, file, 107, 2, 3092);
     			attr_dev(button2, "class", " svelte-ttnnnc");
-    			add_location(button2, file, 128, 2, 3890);
+    			add_location(button2, file, 119, 2, 3419);
     			attr_dev(div6, "id", "pad-controls");
     			attr_dev(div6, "class", "svelte-ttnnnc");
-    			add_location(div6, file, 127, 1, 3864);
+    			add_location(div6, file, 118, 1, 3393);
     			attr_dev(div7, "id", "notes");
     			attr_dev(div7, "class", "svelte-ttnnnc");
-    			add_location(div7, file, 115, 0, 3544);
+    			add_location(div7, file, 106, 0, 3073);
     			attr_dev(main, "class", "svelte-ttnnnc");
-    			add_location(main, file, 56, 0, 1781);
+    			add_location(main, file, 47, 0, 1310);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4287,9 +4287,7 @@ var app = (function () {
     	let active = {};
     	let prewiev = false;
 
-    	// $: console.log(`[i] currentThema: ${notes}`);
     	window.addEventListener("beforeunload", event => {
-    		// event.preventDefault();
     		sync();
     	});
 
@@ -4310,9 +4308,7 @@ var app = (function () {
     	}
 
     	function sync() {
-    		// notes[themen[currentThema]] = note;
     		window.localStorage.setItem("notes", JSON.stringify(notes));
-
     		window.localStorage.setItem("data", JSON.stringify(data));
     		window.localStorage.setItem("currentThema", JSON.stringify(currentThema));
     	}
@@ -4398,9 +4394,6 @@ var app = (function () {
 
     	$$self.$$.update = () => {
     		if ($$self.$$.dirty & /*currentThema*/ 2) {
-    			// $: notes = JSON.parse(localStorage.getItem("notes"))[themen[currentThema]] ? JSON.parse(localStorage.getItem("notes"))[themen[currentThema]] 
-    			// : notes[themen[currentThema]] = `# ${themen[currentThema]}\n\n`; 
-    			// $: note = notes[themen[currentThema]] ? notes[themen[currentThema]] : `# ${themen[currentThema]}\n\n`;
     			 $$invalidate(6, next = currentThema < themen.length - 1 ? currentThema + 1 : 0);
     		}
 

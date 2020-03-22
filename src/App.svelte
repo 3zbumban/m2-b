@@ -1,31 +1,23 @@
 <script>
-// import "lite-youtube-embed";
 import marked from "marked";
 import domPurify from "dompurify";
 
 export let raw_data;
 
 const data = localStorage.getItem("data") ? JSON.parse(localStorage.getItem("data")) : raw_data;
-
 const themen = Object.keys(data);
+
 let currentThema = localStorage.getItem("currentThema") ? JSON.parse(localStorage.getItem("currentThema")) : 0;
 let currentVid = "";
 let active = {};
 let prewiev = false;
 
 $: notes = JSON.parse(localStorage.getItem("notes")) ? JSON.parse(localStorage.getItem("notes")) : themen.map(el => `# ${el}\n\n`);
-// $: notes = JSON.parse(localStorage.getItem("notes"))[themen[currentThema]] ? JSON.parse(localStorage.getItem("notes"))[themen[currentThema]] 
-// : notes[themen[currentThema]] = `# ${themen[currentThema]}\n\n`; 
-
-// $: note = notes[themen[currentThema]] ? notes[themen[currentThema]] : `# ${themen[currentThema]}\n\n`;
-
 $: next = currentThema<themen.length-1 ? currentThema+1 : 0;
 $: prev = currentThema>0 ? currentThema-1 : themen.length-1;
 $: console.log(`[i] currentThema: ${themen[currentThema]}`);
-// $: console.log(`[i] currentThema: ${notes}`);
 
 window.addEventListener("beforeunload", (event) => {
-	// event.preventDefault();
 	sync();
 });
 
@@ -46,7 +38,6 @@ function toggle(i) {
 }
 
 function sync() {
-	// notes[themen[currentThema]] = note;
 	window.localStorage.setItem("notes", JSON.stringify(notes));
 	window.localStorage.setItem("data", JSON.stringify(data));
 	window.localStorage.setItem("currentThema", JSON.stringify(currentThema));
@@ -146,7 +137,6 @@ main {
   	min-width: 0;   /* NEW; needed for Firefox */
 	background-color: white;
 	display: grid;
-	// todo:
 	grid-template-columns: 1fr 3fr;
 	grid-template-rows: 3fr 1fr;
 	// grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
