@@ -6,7 +6,7 @@ export let data;
 const themen = Object.keys(data);
 let currentThema = 0;
 let currentVid = "";
-let active = "";
+let active = {};
 
 $: notes = `# ${themen[currentThema]}\n`;
 
@@ -40,7 +40,7 @@ function clickVid(event) {
 	</div>
 	<div id="themen">
 		{#each data[themen[currentThema]] as t, i}
-		<div class="{active === t.text ? "active" : ""} topic {t.done ? "done" : ""}" on:click={()=>{active = t.text}}>
+		<div class="{active.text === t.text && active.time === t.time ? "active" : ""} {t.done ? "done" : ""} topic" on:click={()=>{active.text = t.text; active.time = t.time}}>
 			{#if t.type === "text"}
 				<span class="f2">📃{t.text}</span>
 			{:else if t.type === "link"}
@@ -145,7 +145,7 @@ span {
 	background-color: yellow;
 	display: flex;
 	flex-direction: column;
-	padding: 0px 0px 0px 5px;
+	padding: 0px 5px 0px 5px;
 	#currentTopic {
 		text-decoration: underline;
 		display: flex;
