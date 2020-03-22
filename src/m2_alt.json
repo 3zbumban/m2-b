@@ -1,0 +1,1938 @@
+{
+    "Vorlesung 1/2 - Folgen, Grenzwerte, Stetigkeit": [
+        {
+            "text": "Vorlesung 1:",
+            "type": "text"
+        },
+        {
+            "text": "Folgen",
+            "link": "http://www.youtube.com/watch?v=PiBQdcoqk_4",
+            "type": "video",
+            "time": "14:33"
+        },
+        {
+            "text": "beschränkte, monotone Folgen",
+            "link": "http://www.youtube.com/watch?v=7j0CRvVy8Zw",
+            "type": "video",
+            "time": "5:43"
+        },
+        {
+            "text": "Konvergenz, bestimmte Divergenz",
+            "link": "http://www.youtube.com/watch?v=CPyB1zIyQQU",
+            "type": "video",
+            "time": "18:41"
+        },
+        {
+            "text": "weiter Konvergenz, Grenzwert",
+            "link": "http://www.youtube.com/watch?v=nYe1ObOuS3E",
+            "type": "video",
+            "time": "11:30"
+        },
+        {
+            "text": "Grenzwertsätze",
+            "link": "http://www.youtube.com/watch?v=zuS0_SVSK-E",
+            "type": "video",
+            "time": "11:35"
+        },
+        {
+            "text": "Vorlesung 2:",
+            "type": "text"
+        },
+        {
+            "text": "Grenzwerte von Funktionen",
+            "link": "http://www.youtube.com/watch?v=OqVcldYJFQ0",
+            "type": "video",
+            "time": "15:29"
+        },
+        {
+            "text": "Stetigkeit, stetig hebbare Definitionslücken",
+            "link": "http://www.youtube.com/watch?v=z0J9M-I2DHk",
+            "type": "video",
+            "time": "24:33"
+        },
+        {
+            "text": "Regel von L'Hôpital, Null durch Null",
+            "link": "http://www.youtube.com/watch?v=vI_TWcsOoNE",
+            "type": "video",
+            "time": "14:10"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Grenzwertbestimmung für komplizierte Funktion,undefined   Grenzwertsätze, Stetigkeit",
+            "link": "http://www.youtube.com/watch?v=tvYW502auCM",
+            "type": "video",
+            "time": "14:01"
+        },
+        {
+            "text": "Beispiel für Regel von L'Hôpital",
+            "link": "http://www.youtube.com/watch?v=YsbS5KIj29Q",
+            "type": "video",
+            "time": "5:06"
+        },
+        {
+            "text": "null hoch null als Grenzwert; Stetigkeit",
+            "link": "http://www.youtube.com/watch?v=VT4d2e4W_B8",
+            "type": "video",
+            "time": "12:57"
+        },
+        {
+            "text": "Grenzwertbetrachtung mit Bruch und Potenzen",
+            "link": "http://www.youtube.com/watch?v=QIODLn3XoyI",
+            "type": "video",
+            "time": "6:01"
+        },
+        {
+            "text": "Grenzwertbetrachtung mit Bruch und Wurzel",
+            "link": "http://www.youtube.com/watch?v=Yws9aO8cECA",
+            "type": "video",
+            "time": "9:07"
+        },
+        {
+            "text": "Grenzwertbetrachtung mit Bruch und Wurzel, anderes Beispiel",
+            "link": "http://www.youtube.com/watch?v=pp6jEA7oXns",
+            "type": "video",
+            "time": "7:23"
+        },
+        {
+            "text": "Grenzwertbetrachtung mit Bruch und Cosinus",
+            "link": "http://www.youtube.com/watch?v=MYQlAqMhavo",
+            "type": "video",
+            "time": "2:21"
+        },
+        {
+            "text": "Grenzwertbetrachtung mit Sinus, Bruch und Potenzen",
+            "link": "http://www.youtube.com/watch?v=3092sr55CoE",
+            "type": "video",
+            "time": "1:45"
+        },
+        {
+            "text": "Grenzwertbetrachtung; L'Hospital",
+            "link": "http://www.youtube.com/watch?v=XZJn0eyMlYo",
+            "type": "video",
+            "time": "5:25"
+        },
+        {
+            "text": "Exponentialfunktion wächst schneller als jedes Polynom",
+            "link": "http://www.youtube.com/watch?v=JLuIV1lSfww",
+            "type": "video",
+            "time": "5:40"
+        },
+        {
+            "text": "Logarithmus wächst langsamer als jede Wurzel",
+            "link": "http://www.youtube.com/watch?v=GVniFKEdC50",
+            "type": "video",
+            "time": "5:13"
+        },
+        {
+            "text": "Grenzwert n-te Wurzel aus n",
+            "link": "http://www.youtube.com/watch?v=JJwE9xbQABY",
+            "type": "video",
+            "time": "4:38"
+        },
+        {
+            "text": "Grenzwertbetrachtung rationale Funktion; L'Hospital",
+            "link": "http://www.youtube.com/watch?v=NRmAMkax-io",
+            "type": "video",
+            "time": "2:35"
+        },
+        {
+            "text": "erfundene Regeln und ein zu knapper Beweis",
+            "link": "http://www.youtube.com/watch?v=CQG1q4CAn1w",
+            "type": "video",
+            "time": "11:26"
+        }
+    ],
+    "Vorlesung 3/4 - Grundlagen zu Ableitungen und Integralen": [
+        {
+            "text": "Vorlesung 3:",
+            "type": "text"
+        },
+        {
+            "text": "Momentangeschwindigkeit, Ableitung",
+            "link": "http://www.youtube.com/watch?v=bI72BQwOXCA",
+            "type": "video",
+            "time": "8:17"
+        },
+        {
+            "text": "Ableitung",
+            "link": "http://www.youtube.com/watch?v=gQuZH3ROoGM",
+            "type": "video",
+            "time": "11:02"
+        },
+        {
+            "text": "Ableitungsregeln",
+            "link": "http://www.youtube.com/watch?v=c38uE-UGeZI",
+            "type": "video",
+            "time": "6:03"
+        },
+        {
+            "text": "Einschub Schreibweise Ableitung",
+            "link": "http://www.youtube.com/watch?v=eBjBUa9zMm0",
+            "type": "video",
+            "time": "3:23"
+        },
+        {
+            "text": "Kettenregel, Ableitung Exponentialfunktionen, Logarithmus",
+            "link": "http://www.youtube.com/watch?v=0MJ30ZBdckk",
+            "type": "video",
+            "time": "8:35"
+        },
+        {
+            "text": "Ableitung Potenzen, Wurzeln, Sinus",
+            "link": "http://www.youtube.com/watch?v=NAt4-yrFpi0",
+            "type": "video",
+            "time": "10:00"
+        },
+        {
+            "text": "weiter Ableitung Sinus",
+            "link": "http://www.youtube.com/watch?v=3SHAqKRF6YI",
+            "type": "video",
+            "time": "6:27"
+        },
+        {
+            "text": "Vorlesung 4:",
+            "type": "text"
+        },
+        {
+            "text": "Integral, Stammfunktion",
+            "link": "http://www.youtube.com/watch?v=CB6iVYz9mQA",
+            "type": "video",
+            "time": "10:35"
+        },
+        {
+            "text": "weiter Stammfunktionen",
+            "link": "http://www.youtube.com/watch?v=VIfjoCnHgNY",
+            "type": "video",
+            "time": "3:02"
+        },
+        {
+            "text": "weiter Stammfunktionen",
+            "link": "http://www.youtube.com/watch?v=8nOuj76HaCY",
+            "type": "video",
+            "time": "3:10"
+        },
+        {
+            "text": "bestimmtes Integral",
+            "link": "http://www.youtube.com/watch?v=tMcEsvhRj2A",
+            "type": "video",
+            "time": "9:25"
+        },
+        {
+            "text": "weiter bestimmtes Integral",
+            "link": "http://www.youtube.com/watch?v=6fk-s53-0BE",
+            "type": "video",
+            "time": "7:09"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Kehrwert ableiten",
+            "link": "http://www.youtube.com/watch?v=avGYUd7wjrc",
+            "type": "video",
+            "time": "14:31"
+        },
+        {
+            "text": "Wurzel ableiten",
+            "link": "http://www.youtube.com/watch?v=YxO6WBteho0",
+            "type": "video",
+            "time": "14:54"
+        },
+        {
+            "text": "Faktor-, Summen- und Produktregel der Ableitung",
+            "link": "http://www.youtube.com/watch?v=t2J211GqrKE",
+            "type": "video",
+            "time": "14:04"
+        },
+        {
+            "text": "Quotientenregel",
+            "link": "http://www.youtube.com/watch?v=YiUD496LUyw",
+            "type": "video",
+            "time": "7:39"
+        },
+        {
+            "text": "Kettenregel",
+            "link": "http://www.youtube.com/watch?v=cPEhaaOWGAI",
+            "type": "video",
+            "time": "10:34"
+        },
+        {
+            "text": "kompliziertere Ableitung",
+            "link": "http://www.youtube.com/watch?v=Ovg9nm0gEow",
+            "type": "video",
+            "time": "4:28"
+        },
+        {
+            "text": "Ableitung und Wurfparabel",
+            "link": "http://www.youtube.com/watch?v=aJsYr5Raj-A",
+            "type": "video",
+            "time": "18:05"
+        },
+        {
+            "text": "Abstand zweier windschiefer Geraden per Ableitungen",
+            "link": "http://www.youtube.com/watch?v=TkSyZEYZbeM",
+            "type": "video",
+            "time": "29:07"
+        },
+        {
+            "text": "Quotientenregel, Kettenregel angewendet",
+            "link": "http://www.youtube.com/watch?v=VaTOC5UO7wI",
+            "type": "video",
+            "time": "6:35"
+        },
+        {
+            "text": "Wurzel(52) schätzen, Tangentengerade an Wurzelfunktion",
+            "link": "http://www.youtube.com/watch?v=0bhvsfb3n4g",
+            "type": "video",
+            "time": "21:32"
+        },
+        {
+            "text": "Fläche unter Sinus-Halbwelle",
+            "link": "http://www.youtube.com/watch?v=4dDhaLUb7AY",
+            "type": "video",
+            "time": "5:19"
+        },
+        {
+            "text": "Strecke aus Geschwindigkeitsverlauf, Integral, Stammfunktion,undefined   Einheiten",
+            "link": "http://www.youtube.com/watch?v=8gyxPD5pniw",
+            "type": "video",
+            "time": "29:13"
+        },
+        {
+            "text": "Fläche unter Parabel halbieren, Integral",
+            "link": "http://www.youtube.com/watch?v=atd9TBxTYug",
+            "type": "video",
+            "time": "18:33"
+        },
+        {
+            "text": "Schwerpunkt der Fläche unter Parabel, Integral",
+            "link": "http://www.youtube.com/watch?v=h0HrR_BsM2o",
+            "type": "video",
+            "time": "16:05"
+        }
+    ],
+    "Vorlesung 5 - Ableitung": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Ableitung, Tangente, Sekantensteigung",
+            "link": "http://www.youtube.com/watch?v=WU45izKSG-I",
+            "type": "video",
+            "time": "27:10"
+        },
+        {
+            "text": "Ableitung von Summen und Produkten",
+            "link": "http://www.youtube.com/watch?v=Q7wlFnE4HIA",
+            "type": "video",
+            "time": "11:25"
+        },
+        {
+            "text": "Kettenregel",
+            "link": "http://www.youtube.com/watch?v=-r7OqgbufNc",
+            "type": "video",
+            "time": "19:44"
+        },
+        {
+            "text": "Quotientenregel",
+            "link": "http://www.youtube.com/watch?v=0Q51Cnu2-mQ",
+            "type": "video",
+            "time": "6:44"
+        },
+        {
+            "text": "Ableitung exp, log, Potenz",
+            "link": "http://www.youtube.com/watch?v=CypHSa0WhZQ",
+            "type": "video",
+            "time": "13:25"
+        },
+        {
+            "text": "Ableitung sin, cos, arcsin",
+            "link": "http://www.youtube.com/watch?v=R7-aDbAOuZQ",
+            "type": "video",
+            "time": "11:28"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Fingerübungen zu Ableitungen; Kettenregel, Potenzregel,undefined   Produktregel, Quotientenregel",
+            "link": "http://www.youtube.com/watch?v=X78Ysz1A8a4",
+            "type": "video",
+            "time": "11:58"
+        },
+        {
+            "text": "Schätzen mit der Ableitung; Tangentengerade",
+            "link": "http://www.youtube.com/watch?v=a4ECi6_k618",
+            "type": "video",
+            "time": "18:59"
+        },
+        {
+            "text": "Nur bei Exponentialfunktionen ist die Ableitung konstantesundefined   Vielfaches der Funktion",
+            "link": "http://www.youtube.com/watch?v=IC_679y1YTA",
+            "type": "video",
+            "time": "8:33"
+        },
+        {
+            "text": "Ableitung Tangens und Arkustangens",
+            "link": "http://www.youtube.com/watch?v=p457QNflMvU",
+            "type": "video",
+            "time": "20:18"
+        },
+        {
+            "text": "Ableitungen, ein paar Fingerübungen",
+            "link": "http://www.youtube.com/watch?v=1QJCXJeLIuI",
+            "type": "video",
+            "time": "22:36"
+        },
+        {
+            "text": "zentrale Differenzformeln; Ableitung numerisch",
+            "link": "http://www.youtube.com/watch?v=F0elmdI1pfk",
+            "type": "video",
+            "time": "8:12"
+        },
+        {
+            "text": "senkrechter Wurf; Differentialgleichung",
+            "link": "http://www.youtube.com/watch?v=luEHOGPujOA",
+            "type": "video",
+            "time": "23:42"
+        },
+        {
+            "text": "Kondensator entladen; Differentialgleichung",
+            "link": "http://www.youtube.com/watch?v=GAFeYmi4WUk",
+            "type": "video",
+            "time": "14:12"
+        }
+    ],
+    "Vorlesung 6 - lokale Extrema, Wendepunkte": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "lokale, globale Minima, Maxima",
+            "link": "http://www.youtube.com/watch?v=abJDU87xPxA",
+            "type": "video",
+            "time": "15:59"
+        },
+        {
+            "text": "lokale Minima und Maxima, Kriterien",
+            "link": "http://www.youtube.com/watch?v=NC6fLHnPrRo",
+            "type": "video",
+            "time": "14:26"
+        },
+        {
+            "text": "Wendepunkte",
+            "link": "http://www.youtube.com/watch?v=cUh1BZLMht0",
+            "type": "video",
+            "time": "11:11"
+        },
+        {
+            "text": "Ableitungen",
+            "link": "http://commons.wikimedia.org/wiki/File%3AAbleitungsss.svg",
+            "type": "img"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Beispiel lokales Maximum, lokales Minimum",
+            "link": "http://www.youtube.com/watch?v=E-xuYg8DpBk",
+            "type": "video",
+            "time": "12:59"
+        },
+        {
+            "text": "Ableitung größer null, streng monoton",
+            "link": "http://www.youtube.com/watch?v=_cfOn92GRb4",
+            "type": "video",
+            "time": "7:30"
+        },
+        {
+            "text": "optimale Dose, maximales Volumen, minimale Oberfläche,undefined   Ableitung",
+            "link": "http://www.youtube.com/watch?v=J-YLyBaAt4c",
+            "type": "video",
+            "time": "35:52"
+        },
+        {
+            "text": "schnellste Verbindung, Ableitung, snelliussches Brechungsgesetzundefined   der Optik",
+            "link": "http://www.youtube.com/watch?v=9hUOolW-894",
+            "type": "video",
+            "time": "14:32"
+        },
+        {
+            "text": "Minimum, Maximum eines Polynoms",
+            "link": "http://www.youtube.com/watch?v=m3InoqfXPik",
+            "type": "video",
+            "time": "8:21"
+        },
+        {
+            "text": "Monotonie mit Ableitung nachweisen",
+            "link": "http://www.youtube.com/watch?v=4n8LiKv7Z1w",
+            "type": "video",
+            "time": "5:01"
+        },
+        {
+            "text": "Monotonie und Ableitung, Problemfall",
+            "link": "http://www.youtube.com/watch?v=NC_Hp7JdF7c",
+            "type": "video",
+            "time": "5:08"
+        },
+        {
+            "text": "Wendepunkte Glockenkurve",
+            "link": "http://www.youtube.com/watch?v=x8O6hEVw2_E",
+            "type": "video",
+            "time": "10:39"
+        },
+        {
+            "text": "Polynom mit vorgegebenen Wendepunkten",
+            "link": "http://www.youtube.com/watch?v=iHAxP5K2LIE",
+            "type": "video",
+            "time": "12:57"
+        },
+        {
+            "text": "Bildgröße, optimaler Standpunkt",
+            "link": "http://www.youtube.com/watch?v=vWnSLLx2ul4",
+            "type": "video",
+            "time": "13:35"
+        }
+    ],
+    "Vorlesung 7 - lineare Näherung samt Anwendungen": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Lineare Näherung und ihr Fehler",
+            "link": "http://www.youtube.com/watch?v=qqjZYTPkvH0",
+            "type": "video",
+            "time": "29:52"
+        },
+        {
+            "text": "Numerische Schätzung 1., 2. Ableitung",
+            "link": "http://www.youtube.com/watch?v=dhf15Rc-iio",
+            "type": "video",
+            "time": "14:09"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Ableitung von Messreihen schätzen, numerischesundefined   Differenzieren, Fehlerschätzung",
+            "link": "http://www.youtube.com/watch?v=o6SOjC6DQx4",
+            "type": "video",
+            "time": "29:59"
+        },
+        {
+            "text": "Tangentengerade an sin(x²)",
+            "link": "http://www.youtube.com/watch?v=xnO95NfEm5M",
+            "type": "video",
+            "time": "15:56"
+        },
+        {
+            "text": "ln(3) mit linearer Näherung schätzen",
+            "link": "http://www.youtube.com/watch?v=_F3q4jPbq4g",
+            "type": "video",
+            "time": "8:29"
+        },
+        {
+            "text": "Tangentengeraden durch Ursprung an Parabel",
+            "link": "http://www.youtube.com/watch?v=VFWV6Ywxt80",
+            "type": "video",
+            "time": "9:17"
+        },
+        {
+            "text": "lineare Näherung für kleine Drehung",
+            "link": "http://www.youtube.com/watch?v=1ubfmwDG_18",
+            "type": "video",
+            "time": "18:41"
+        },
+        {
+            "text": "Linsengleichung auflösen; Fehlerrechnung; lineare Näherung",
+            "link": "http://www.youtube.com/watch?v=FGwfy0nGCTg",
+            "type": "video",
+            "time": "10:43"
+        }
+    ],
+    "Vorlesung 8 - Integral": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Idee des Integrals",
+            "link": "http://www.youtube.com/watch?v=drITIZEuepg",
+            "type": "video",
+            "time": "22:41"
+        },
+        {
+            "text": "Stammfunktion, unbestimmtes Integral, Hauptsatz",
+            "link": "http://www.youtube.com/watch?v=tKEcuQJG9j8",
+            "type": "video",
+            "time": "21:01"
+        },
+        {
+            "text": "Uneigentliche Integrale",
+            "link": "http://www.youtube.com/watch?v=Ntkq5u6iYMs",
+            "type": "video",
+            "time": "15:42"
+        },
+        {
+            "text": "optional: Numerische Integration, Trapezregel, Simpson-Regel",
+            "link": "http://www.youtube.com/watch?v=cvHUpXNZmlM",
+            "type": "video",
+            "time": "19:50"
+        },
+        {
+            "text": "Bsp. Zerlegung intervall",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Riemann_Integral_mit_Obersumme_und_Untersumme.svg/512px-Riemann_Integral_mit_Obersumme_und_Untersumme.svg.png",
+            "type": "img"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Zusammenfassung bestimmtes Integral, Stammfunktion, Wurzelfunktionundefined   integrieren",
+            "link": "http://www.youtube.com/watch?v=LWTtOCj8U4Q",
+            "type": "video",
+            "time": "11:51"
+        },
+        {
+            "text": "Pi mit Integral und Arcustangens berechnen; Leibniz-Reihe",
+            "link": "http://www.youtube.com/watch?v=rcLHCzWnTtE",
+            "type": "video",
+            "time": "13:08"
+        },
+        {
+            "text": "numerische Integration, Trapezverfahren, Fehlerschätzung,undefined   Romberg, Richardson",
+            "link": "http://www.youtube.com/watch?v=wXdOZz2hx3g",
+            "type": "video",
+            "time": "22:41"
+        },
+        {
+            "text": "Integrale mit Sinus und Partialbruchzerlegung",
+            "link": "http://www.youtube.com/watch?v=nEsZ2JfZiqI",
+            "type": "video",
+            "time": "17:41"
+        },
+        {
+            "text": "Stammfunktion der Betragsfunktion",
+            "link": "http://www.youtube.com/watch?v=HC50zHxf-dA",
+            "type": "video",
+            "time": "3:48"
+        }
+    ],
+    "Vorlesung 9 - Integrationsregeln": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Partielle Integration",
+            "link": "http://www.youtube.com/watch?v=NcIrSbG0q6s",
+            "type": "video",
+            "time": "17:23"
+        },
+        {
+            "text": "Substitutionsregel",
+            "link": "http://www.youtube.com/watch?v=T9AeEo6niO0",
+            "type": "video",
+            "time": "13:22"
+        },
+        {
+            "text": "Integration durch Partialbruchzerlegung",
+            "link": "http://www.youtube.com/watch?v=aKJNPifcXew",
+            "type": "video",
+            "time": "21:00"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Partielle Integration, Substitutionsregel, Integration durchundefined   Partialbruchzerlegung",
+            "link": "http://www.youtube.com/watch?v=bqe7Ct14__k",
+            "type": "video",
+            "time": "19:33"
+        },
+        {
+            "text": "Beispiele partielle Integration, Substitutionsregel, Integrationundefined   durch Partialbruchzerlegung",
+            "link": "http://www.youtube.com/watch?v=-MOjddiR7S8",
+            "type": "video",
+            "time": "37:16"
+        },
+        {
+            "text": "partielle Integration; Fingerübung",
+            "link": "http://www.youtube.com/watch?v=ER181Gk6gdc",
+            "type": "video",
+            "time": "7:34"
+        },
+        {
+            "text": "partielle Integration; Logarithmus integrieren",
+            "link": "http://www.youtube.com/watch?v=ze4O45Ra2kM",
+            "type": "video",
+            "time": "2:27"
+        },
+        {
+            "text": "doppelte partielle Integration; x Quadrat mal Sinus",
+            "link": "http://www.youtube.com/watch?v=s5Acs0-aVg4",
+            "type": "video",
+            "time": "5:38"
+        },
+        {
+            "text": "Integration durch Substitution; Fingerübung",
+            "link": "http://www.youtube.com/watch?v=EjSEihB7aMY",
+            "type": "video",
+            "time": "8:04"
+        },
+        {
+            "text": "Integration durch Substitution; weitere Fingerübung",
+            "link": "http://www.youtube.com/watch?v=thNga_5C0yI",
+            "type": "video",
+            "time": "9:04"
+        },
+        {
+            "text": "drei Wege für Integration durch Substitution",
+            "link": "http://www.youtube.com/watch?v=U6LrABJosxI",
+            "type": "video",
+            "time": "11:27"
+        }
+    ],
+    "Vorlesung 10 - Schmiegeparabel, Taylor-Polynome": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Tangentengerade, Schmiegeparabel, Taylor-Polynome",
+            "link": "http://www.youtube.com/watch?v=4dZ2nO8Qpyw",
+            "type": "video",
+            "time": "14:39"
+        },
+        {
+            "text": "Taylor-Polynom für Wurzelfunktion",
+            "link": "http://www.youtube.com/watch?v=MFRt_e_IIiw",
+            "type": "video",
+            "time": "12:45"
+        },
+        {
+            "text": "Taylor-Reihe, Potenzreihen, Teil 1",
+            "link": "http://www.youtube.com/watch?v=iIwPhunjxtA",
+            "type": "video",
+            "time": "17:25"
+        },
+        {
+            "text": "Taylor-Reihe, Potenzreihen, Teleskopsumme, Teil 2",
+            "link": "http://www.youtube.com/watch?v=oBNO2jRr7ck",
+            "type": "video",
+            "time": "19:41"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "kubische Wurzel mit Schmiegeparabel nähern, Taylor-Polynom",
+            "link": "http://www.youtube.com/watch?v=kPyRgZRLGBA",
+            "type": "video",
+            "time": "16:21"
+        },
+        {
+            "text": "nichtlineare Gleichung mit Schmiegeparabel in quadr. Gleichungundefined   umwandeln, Taylor",
+            "link": "http://www.youtube.com/watch?v=bTmU0UJPrBk",
+            "type": "video",
+            "time": "12:14"
+        },
+        {
+            "text": "Divergenz der harmonischen Reihe mit Integral zeigen",
+            "link": "http://www.youtube.com/watch?v=Z4WQi3CrHfQ",
+            "type": "video",
+            "time": "6:56"
+        },
+        {
+            "text": "Taylor-Näherung für natürlichen Logarithmus",
+            "link": "http://www.youtube.com/watch?v=3CvfkdtiozY",
+            "type": "video",
+            "time": "10:25"
+        },
+        {
+            "text": "Wolfram Alpha: Taylor Reihe für beliebige Funktionen mit graphischer Darstellung",
+            "link": "http://www.wolframalpha.com/input/?i=taylor+series&lk=4&num=1",
+            "type": "link"
+        },
+        {
+            "text": "Approximation von sin(x) durch Taylorpolynome Pn vom Grad 1, 3, 5 und 7:",
+            "type": "img",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Taylor_Approximation_of_sin%28x%29.jpeg/800px-Taylor_Approximation_of_sin%28x%29.jpeg"
+        },
+        {
+            "text": "Die Cosinusfunktion um den Punkt 0 entwickelt, in sukzessiver Näherung:",
+            "type": "img",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Taylor_cos.gif/800px-Taylor_cos.gif"
+        },
+        {
+            "text": "Approximation von ln(x) durch Taylorpolynome der Grade 1, 2, 3 bzw. 10 um den Entwicklungspunkt 1. Die Polynome konvergieren nur im Intervall (0, 2]. Der Konvergenzradius ist also 1:",
+            "type": "img",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Mercator_series.svg/480px-Mercator_series.svg.png"
+        }
+    ],
+    "Vorlesung 11 - Rest nach Taylor, Potenzreihen": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Taylor-Rest, Teil 1",
+            "link": "http://www.youtube.com/watch?v=g6lZVsAF3Rk",
+            "type": "video",
+            "time": "9:30"
+        },
+        {
+            "text": "Taylor-Restformel, Teil 2, Abschätzung des Fehlers",
+            "link": "http://www.youtube.com/watch?v=zMs7oVBKYuU",
+            "type": "video",
+            "time": "28:46"
+        },
+        {
+            "text": "Taylor-Rest, Beispiel für Fehlerschätzung",
+            "link": "http://www.youtube.com/watch?v=KfOvkB63Svc",
+            "type": "video",
+            "time": "8:55"
+        },
+        {
+            "text": "Potenzreihen, Konvergenzradius, Teil 1",
+            "link": "http://www.youtube.com/watch?v=7st-QCLyfq0",
+            "type": "video",
+            "time": "14:54"
+        },
+        {
+            "text": "Konvergenzradius, Teil 2",
+            "link": "http://www.youtube.com/watch?v=QnQqVcGaWxo",
+            "type": "video",
+            "time": "18:07"
+        },
+        {
+            "text": "Potenzreihen und Analytische Funktionen",
+            "link": "http://www.youtube.com/watch?v=COYMPxsM82c",
+            "type": "video",
+            "time": "12:32"
+        },
+        {
+            "text": "wird nicht behandelt: Differentialgleichungen mit Potenzreihen lösen",
+            "link": "http://www.youtube.com/watch?v=LuQdyq5biUc",
+            "type": "video",
+            "time": "12:47"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Potenzreihe für Arcustangens; Konvergenzradius",
+            "link": "http://www.youtube.com/watch?v=APM6aqo8Vqg",
+            "type": "video",
+            "time": "42:46"
+        },
+        {
+            "text": "Taylor-Näherung und Fehler für Sinusfunktion",
+            "link": "http://www.youtube.com/watch?v=zcs_dVezJNo",
+            "type": "video",
+            "time": "17:20"
+        },
+        {
+            "text": "Potenzreihe für Logarithmus aus geometrischer Reihe",
+            "link": "http://www.youtube.com/watch?v=8AO6jN1Wjfk",
+            "type": "video",
+            "time": "4:55"
+        },
+        {
+            "text": "Potenzreihenansatz für Differentialgleichung; Beispiel Taylorpolynom",
+            "link": "http://www.youtube.com/watch?v=4XG4HKq3LSQ",
+            "type": "video",
+            "time": "13:26"
+        },
+        {
+            "text": "Potenzreihenansatz für Differentialgleichung",
+            "link": "http://www.youtube.com/watch?v=7NMraA_oaXQ",
+            "type": "video",
+            "time": "19:14"
+        },
+        {
+            "text": "kubische Wurzel mit Taylorpolynom schätzen; Fehlerschranke",
+            "link": "http://www.youtube.com/watch?v=_ZG52A2ZWKU",
+            "type": "video",
+            "time": "10:34"
+        },
+        {
+            "text": "Kreiszahl PI mit Taylorreihe von Arcustangens berechnen: arctan(1) = PI / 4",
+            "type": "text"
+        },
+        {
+            "text": "http://de.wikipedia.org/wiki/Arcus-Tangens#Reihenentwicklung",
+            "link": "http://de.wikipedia.org/wiki/Arcus-Tangens#Reihenentwicklung",
+            "type": "link"
+        },
+        {
+            "text": "http://de.wikipedia.org/wiki/Kreiszahlberechnung_nach_Leibniz",
+            "link": "http://de.wikipedia.org/wiki/Kreiszahlberechnung_nach_Leibniz",
+            "type": "link"
+        },
+        {
+            "text": "Mit Java 8 die ersten 1000.000.000 Summanden:",
+            "link": "http://4.bp.blogspot.com/-6lwKoZmaxsY/U6wmtkTwpRI/AAAAAAAAJzM/n-HzUbhdZdY/s1600/Java8-Taylor-Series.png",
+            "type": "img"
+        }
+    ],
+    "Vorlesung 12 - Vektorräume": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "optional (nicht alles aus dem Überblick wird bei uns behandelt): Überblick 2. Semester; Lineare Algebra, Differentialgleichungen usw.",
+            "link": "http://www.youtube.com/watch?v=MOFfns7LHGM",
+            "type": "video",
+            "time": "40:28"
+        },
+        {
+            "text": "Pfeile, Vektoren, gerichtete Größen",
+            "link": "http://www.youtube.com/watch?v=BCtKTw97-Yg",
+            "type": "video",
+            "time": "17:18"
+        },
+        {
+            "text": "Ebene R2 und Raum R3",
+            "link": "http://www.youtube.com/watch?v=lnE0d_jY7zA",
+            "type": "video",
+            "time": "13:38"
+        },
+        {
+            "text": "Vektorraum",
+            "link": "http://www.youtube.com/watch?v=9324wQg_eu8",
+            "type": "video",
+            "time": "16:01"
+        },
+        {
+            "text": "Basis, Dimension",
+            "link": "http://www.youtube.com/watch?v=UfJgVy0W0QU",
+            "type": "video",
+            "time": "20:51"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Vektorraum, Untervektorraum, Basis, Dimension",
+            "link": "http://www.youtube.com/watch?v=GGbd_yCvTIQ",
+            "type": "video",
+            "time": "32:02"
+        },
+        {
+            "text": "Dimension von Kurven, Flächen; Hausdorff-Dimension; Fraktal, Koch-Kurve",
+            "link": "http://www.youtube.com/watch?v=eWSmQQv2Jbs",
+            "type": "video",
+            "time": "25:30"
+        },
+        {
+            "text": "Begriff Vektorraum; Vektor aus zwei gegebenen Vektoren bilden",
+            "link": "http://www.youtube.com/watch?v=tr8Gms3YerM",
+            "type": "video",
+            "time": "10:29"
+        },
+        {
+            "text": "Vektorraum der Polynome; Basis",
+            "link": "http://www.youtube.com/watch?v=2zxT8T8eK8E",
+            "type": "video",
+            "time": "17:04"
+        },
+        {
+            "text": "Vektorraum der sinusförmigen Schwingungen; Zerlegung in sin und cos",
+            "link": "http://www.youtube.com/watch?v=gyy2X7ZAFKM",
+            "type": "video",
+            "time": "9:26"
+        }
+    ],
+    "Vorlesung 13/14 - Komplexe Zahlen": [
+        {
+            "text": "Vorlesung 13 (zwei Teile A und B!) A. Zahlenbereiche (nur Komplexe Zahlen!)",
+            "type": "text"
+        },
+        {
+            "text": "optional (Wiederholung aus 1.Semester): Natürliche, ganze und rationale Zahlen",
+            "link": "http://www.youtube.com/watch?v=hm9wcWSk9fU",
+            "type": "video",
+            "time": "3:33"
+        },
+        {
+            "text": "optional (Wiederholung aus 1.Semester): Reelle Zahlen",
+            "link": "http://www.youtube.com/watch?v=7VwHHgLqzAg",
+            "type": "video",
+            "time": "4:54"
+        },
+        {
+            "text": "Komplexe Zahlen",
+            "link": "http://www.youtube.com/watch?v=SnmF8FowyFM",
+            "type": "video",
+            "time": "6:49"
+        },
+        {
+            "text": "Real- und Imaginärteil, Länge, Gaußsche Zahlenebene",
+            "link": "http://www.youtube.com/watch?v=mPDeWb9U28I",
+            "type": "video",
+            "time": "6:51"
+        },
+        {
+            "text": "Wozu komplexe Zahlen?",
+            "link": "http://www.youtube.com/watch?v=8su2_dLFGt8",
+            "type": "video",
+            "time": "5:31"
+        },
+        {
+            "text": "optional (Wiederholung aus 1.Semester): Rechenregeln, Assoziativität, Kommutativität, Distributivität",
+            "link": "http://www.youtube.com/watch?v=oE3cpm0ID-M",
+            "type": "video",
+            "time": "6:14"
+        },
+        {
+            "text": "optional: Quaternionen, unendlich große Zahlen",
+            "link": "http://www.youtube.com/watch?v=Uu9XIezNzUo",
+            "type": "video",
+            "time": "4:16"
+        },
+        {
+            "text": "optional (Wiederholung aus 1.Semester): 04.06 Intervalle reeller Zahlen",
+            "link": "http://www.youtube.com/watch?v=9fRKzAbouWU",
+            "type": "video",
+            "time": "2:41"
+        },
+        {
+            "text": "optional (Wiederholung aus 1.Semester): 04.07 Stellenwertsysteme, Binärsystem",
+            "link": "http://www.youtube.com/watch?v=TEYxSXC3PuQ",
+            "type": "video",
+            "time": "8:51"
+        },
+        {
+            "text": "optional (Wiederholung aus 1.Semester): 04.08 Exponentialschreibweise",
+            "link": "http://www.youtube.com/watch?v=NAslOP0f5M8",
+            "type": "video",
+            "time": "5:50"
+        },
+        {
+            "text": "B. imaginäre Einheit, Gaußsche Zahlenebene; Betrag, Winkel; komplexe Konjugation; Grundrechenarten für komplexe Zahlen",
+            "type": "text"
+        },
+        {
+            "text": "Gaußsche Zahlenebene, komplexe Zahlen",
+            "link": "http://www.youtube.com/watch?v=l_lzxGxo2S8",
+            "type": "video",
+            "time": "10:39"
+        },
+        {
+            "text": "Betrag, Winkel einer komplexen Zahl",
+            "link": "http://www.youtube.com/watch?v=hVGkUCQX5LU",
+            "type": "video",
+            "time": "12:44"
+        },
+        {
+            "text": "Addition, Subtraktion komplexer Zahlen",
+            "link": "http://www.youtube.com/watch?v=tVv2kgIk4qc",
+            "type": "video",
+            "time": "4:32"
+        },
+        {
+            "text": "Multiplikation komplexer Zahlen",
+            "link": "http://www.youtube.com/watch?v=k4ZIP9vrKCA",
+            "type": "video",
+            "time": "14:47"
+        },
+        {
+            "text": "Division komplexer Zahlen",
+            "link": "http://www.youtube.com/watch?v=EP45MD62yXc",
+            "type": "video",
+            "time": "13:02"
+        },
+        {
+            "text": "weiter Division komplexer Zahlen, Winkel bestimmen",
+            "link": "http://www.youtube.com/watch?v=1k-ITGa1lJE",
+            "type": "video",
+            "time": "2:36"
+        },
+        {
+            "text": "Vorlesung 14 C. Potenzen und Wurzeln komplexer Zahlen; Eulersche Identität; Additionstheoreme; vollständige Faktorisierung von Polynomen",
+            "type": "text"
+        },
+        {
+            "text": "Ganzzahlige Potenzen und Wurzeln komplexer Zahlen",
+            "link": "http://www.youtube.com/watch?v=ldWsG5RGJcE",
+            "type": "video",
+            "time": "13:53"
+        },
+        {
+            "text": "Wurzeln in Wolfram Alpha",
+            "link": "http://www.youtube.com/watch?v=YSMakbCDKL4",
+            "type": "video",
+            "time": "1:46"
+        },
+        {
+            "text": "weiter Wurzeln komplexer Zahlen",
+            "link": "http://www.youtube.com/watch?v=m5U76mP0yUY",
+            "type": "video",
+            "time": "4:17"
+        },
+        {
+            "text": "Eulersche Identität e^(ix)=cos(x)+isin(x)",
+            "link": "http://www.youtube.com/watch?v=dHIshFK7INM",
+            "type": "video",
+            "time": "11:42"
+        },
+        {
+            "text": "weiter Eulersche Identität",
+            "link": "http://www.youtube.com/watch?v=Tz18ZK2hGmE",
+            "type": "video",
+            "time": "12:51"
+        },
+        {
+            "text": "sin, cos, Potenzreihen, Additionstheoreme",
+            "link": "http://www.youtube.com/watch?v=aT96lnpCLYs",
+            "type": "video",
+            "time": "14:19"
+        },
+        {
+            "text": "Polardarstellung, Multiplikation, Division, Potenz.avi",
+            "link": "http://www.youtube.com/watch?v=3ZLXFp3RnsA",
+            "type": "video",
+            "time": "7:59"
+        },
+        {
+            "text": "weiter Polardarstellung, Wurzel",
+            "link": "http://www.youtube.com/watch?v=Lj6dWLPaM2I",
+            "type": "video",
+            "time": "7:39"
+        },
+        {
+            "text": "Fundamentalsatz der Algebra, Nullstellen von Polynomen im Komplexen",
+            "link": "http://www.youtube.com/watch?v=7JvTFSRuIY8",
+            "type": "video",
+            "time": "14:50"
+        },
+        {
+            "text": "weiter Fundamentalsatz der Algebra, Nullstellen von Polynomen imundefined   Komplexen",
+            "link": "http://www.youtube.com/watch?v=JHHTKNHJgY8",
+            "type": "video",
+            "time": "14:31"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Ordinalzahlen, Konstruktion von Zahlen nur aus der leeren Menge",
+            "link": "http://www.youtube.com/watch?v=rf6H-BLMhI0",
+            "type": "video",
+            "time": "13:32"
+        },
+        {
+            "text": "Mächtigkeit, 1. und 2. Cantorsches Diagonalverfahren,undefined   (Über-)Abzählbarkeit",
+            "link": "http://www.youtube.com/watch?v=N3ybfG-e_UA",
+            "type": "video",
+            "time": "25:46"
+        },
+        {
+            "text": "Beispiel für Multiplikation und Division komplexer Zahlen",
+            "link": "http://www.youtube.com/watch?v=llMuIMD6hKk",
+            "type": "video",
+            "time": "8:44"
+        },
+        {
+            "text": "Warum i² gleich -1 sein muss",
+            "link": "http://www.youtube.com/watch?v=OkdkyS1uQc4",
+            "type": "video",
+            "time": "13:37"
+        },
+        {
+            "text": "Rechnen mit komplexen Zahlen, Multiplikation und Division",
+            "link": "http://www.youtube.com/watch?v=Biq15MFlJvo",
+            "type": "video",
+            "time": "11:28"
+        },
+        {
+            "text": "Wurzel aus der imaginären Einheit",
+            "link": "http://www.youtube.com/watch?v=7wEt3CoV9Uc",
+            "type": "video",
+            "time": "19:19"
+        },
+        {
+            "text": "quadratische Gleichung mit komplexwertigen Lösungen",
+            "link": "http://www.youtube.com/watch?v=j_Rw6whnxtQ",
+            "type": "video",
+            "time": "4:23"
+        },
+        {
+            "text": "rationale Zahlen, periodische Dezimalbrüche, algebraische Gleichungen",
+            "link": "http://www.youtube.com/watch?v=QCCpCLJYXh8",
+            "type": "video",
+            "time": "16:34"
+        },
+        {
+            "text": "Fingerübungen mit komplexen Zahlen, Länge, Winkel; Potenzen; Wurzeln von i",
+            "link": "http://www.youtube.com/watch?v=cfz0kwHcUI4",
+            "type": "video",
+            "time": "13:39"
+        },
+        {
+            "text": "Die Werte von 1 durch (3+ix) bilden einen Kreis in der Gausschen Zahlenebene",
+            "link": "http://www.youtube.com/watch?v=bq4XE08U_Yo",
+            "type": "video",
+            "time": "16:10"
+        },
+        {
+            "text": "Multiplikation komplexer Zahlen algebraisch und geometrisch",
+            "link": "http://www.youtube.com/watch?v=nzVckYlx3-Y",
+            "type": "video",
+            "time": "15:52"
+        },
+        {
+            "text": "Division komplexer Zahlen algebraisch und geometrisch",
+            "link": "http://www.youtube.com/watch?v=ETnvAiXpAoQ",
+            "type": "video",
+            "time": "18:38"
+        },
+        {
+            "text": "Eulersche Identität, Polardarstellung, Sinus hyperbolicus",
+            "link": "http://www.youtube.com/watch?v=QeS2FwbiXlw",
+            "type": "video",
+            "time": "36:09"
+        },
+        {
+            "text": "Multiplikation am Einheitskreis geometrisch, Länge, komplex Konjugiertes",
+            "link": "http://www.youtube.com/watch?v=QAxAMJQHOms",
+            "type": "video",
+            "time": "26:35"
+        },
+        {
+            "text": "Gleichungen und pq-Formel mit komplexen Zahlen",
+            "link": "http://www.youtube.com/watch?v=Iov-FrXa4nc",
+            "type": "video",
+            "time": "11:10"
+        },
+        {
+            "text": "Zwei hoch die imaginäre Einheit i; imaginäre Einheit hoch die imaginäre Einheit",
+            "link": "http://www.youtube.com/watch?v=5fGwt0aN1eM",
+            "type": "video",
+            "time": "12:07"
+        },
+        {
+            "text": "dritte Wurzeln einer komplexen Zahl",
+            "link": "http://www.youtube.com/watch?v=WfAQnp_3Hco",
+            "type": "video",
+            "time": "14:17"
+        },
+        {
+            "text": "Gleichung mit komplexen Zahlen; Wurzel aus i",
+            "link": "http://www.youtube.com/watch?v=ZXcikjJ0xpY",
+            "type": "video",
+            "time": "4:52"
+        },
+        {
+            "text": "quadratische Gleichung mit komplexen Zahlen",
+            "link": "http://www.youtube.com/watch?v=7KGa7TbE8nU",
+            "type": "video",
+            "time": "3:06"
+        },
+        {
+            "text": "Drehungen im R2 über komplexe Zahlen und Eulersche Identität",
+            "link": "http://www.youtube.com/watch?v=GMTRgdLodNQ",
+            "type": "video",
+            "time": "9:30"
+        },
+        {
+            "text": "Cosinus von i; Cosinus mit e hoch i phi schreiben",
+            "link": "http://www.youtube.com/watch?v=3iBE4cV-CBw",
+            "type": "video",
+            "time": "12:13"
+        },
+        {
+            "text": "Logarithmus einer komplexen Zahl",
+            "link": "http://www.youtube.com/watch?v=3fCRZmWHS0E",
+            "type": "video",
+            "time": "9:43"
+        },
+        {
+            "text": "komplexe Linearfaktoren eines Polynoms",
+            "link": "http://www.youtube.com/watch?v=Omrs4LfXsss",
+            "type": "video",
+            "time": "6:19"
+        }
+    ],
+    "Vorlesung 15 - Geradengleichung, Skalarprodukt": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Geradengleichungen in Parameterform",
+            "link": "http://www.youtube.com/watch?v=Pa_qbvqWDbA",
+            "type": "video",
+            "time": "15:09"
+        },
+        {
+            "text": "Länge eines Vektors",
+            "link": "http://www.youtube.com/watch?v=Z0tpWlBt698",
+            "type": "video",
+            "time": "10:27"
+        },
+        {
+            "text": "Skalarprodukt, Teil 1",
+            "link": "http://www.youtube.com/watch?v=_v0FwywZRzI",
+            "type": "video",
+            "time": "10:05"
+        },
+        {
+            "text": "Skalarprodukt Teil 2, Orthogonalität",
+            "link": "http://www.youtube.com/watch?v=lEtAVOxM0LY",
+            "type": "video",
+            "time": "24:49"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Probleme der Geradengleichung mx plus b",
+            "link": "http://www.youtube.com/watch?v=l5AMf1SsvSg",
+            "type": "video",
+            "time": "9:35"
+        },
+        {
+            "text": "Abstand Gerade vom Ursprung mit Ableitung und mit Normale",
+            "link": "http://www.youtube.com/watch?v=NO-aB-VxJDk",
+            "type": "video",
+            "time": "19:35"
+        },
+        {
+            "text": "Abstand Ebene vom Ursprung, aufwendige Form mit Ableitung",
+            "link": "http://www.youtube.com/watch?v=SqkUXwAj8II",
+            "type": "video",
+            "time": "14:51"
+        },
+        {
+            "text": "Geraden auf Parallelität prüfen",
+            "link": "http://www.youtube.com/watch?v=-nXiY2LyRjw",
+            "type": "video",
+            "time": "4:25"
+        },
+        {
+            "text": "Schnittpunkt zweier Geraden",
+            "link": "http://www.youtube.com/watch?v=0LQ_fTlE754",
+            "type": "video",
+            "time": "11:27"
+        },
+        {
+            "text": "Schnittmenge Ebene mit xy-Ebene",
+            "link": "http://www.youtube.com/watch?v=x0mlo_T4g_I",
+            "type": "video",
+            "time": "3:20"
+        },
+        {
+            "text": "prüfen, ob Ebene durch Ursprung geht",
+            "link": "http://www.youtube.com/watch?v=_qaX4IqO5iE",
+            "type": "video",
+            "time": "8:54"
+        },
+        {
+            "text": "Winkel mittels Skalarprodukt bestimmen",
+            "link": "http://www.youtube.com/watch?v=PEPjcTA0BG8",
+            "type": "video",
+            "time": "5:33"
+        },
+        {
+            "text": "Dreieck auf Rechtwinkligkeit prüfen",
+            "link": "http://www.youtube.com/watch?v=Y8uNlKCmeVk",
+            "type": "video",
+            "time": "5:20"
+        },
+        {
+            "text": "Vektor in yz-Ebene senkrecht zu gegebenem Vektor",
+            "link": "http://www.youtube.com/watch?v=jGUsn5hOdR0",
+            "type": "video",
+            "time": "7:48"
+        },
+        {
+            "text": "Geradengleichung in Normalenform",
+            "link": "http://www.youtube.com/watch?v=RgtPSilhZSY",
+            "type": "video",
+            "time": "12:09"
+        },
+        {
+            "text": "Parallelogrammidentität; Diagonalen eines Parallelogramms",
+            "link": "http://www.youtube.com/watch?v=jeYYCfo3HPA",
+            "type": "video",
+            "time": "9:56"
+        },
+        {
+            "text": "Winkel zwischen zwei Geraden im R²",
+            "link": "http://www.youtube.com/watch?v=t7NojmtkdUk",
+            "type": "video",
+            "time": "5:50"
+        }
+    ],
+    "Vorlesung 16 - Matrizen": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Matrizen, Transposition, MATLAB(R)",
+            "link": "http://www.youtube.com/watch?v=A_jlm3s0F7Y",
+            "type": "video",
+            "time": "21:59"
+        },
+        {
+            "text": "Matrix mal Vektor, Matrix mal Matrix",
+            "link": "http://www.youtube.com/watch?v=aaZekvIXczc",
+            "type": "video",
+            "time": "23:04"
+        },
+        {
+            "text": "Skalierung, Drehungsmatrix, Verschiebung",
+            "link": "http://www.youtube.com/watch?v=8QnR1V0EMKE",
+            "type": "video",
+            "time": "29:40"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Scherungsmatrix",
+            "link": "http://www.youtube.com/watch?v=AXAB8yi555A",
+            "type": "video",
+            "time": "6:16"
+        },
+        {
+            "text": "Rotation um beliebigen Punkt, affine Abbildung, Verschiebungsvektor, Rotationsmatrix",
+            "link": "http://www.youtube.com/watch?v=ZghfFjT8BTY",
+            "type": "video",
+            "time": "14:04"
+        },
+        {
+            "text": "geometrische Wirkung einer Matrix; inverse Matrix",
+            "link": "http://www.youtube.com/watch?v=24q7TUhEoyM",
+            "type": "video",
+            "time": "17:54"
+        },
+        {
+            "text": "Spiegelung und Drehung nacheinander; Matrizenmultiplikation",
+            "link": "http://www.youtube.com/watch?v=4zpWkhGne4A",
+            "type": "video",
+            "time": "7:20"
+        },
+        {
+            "text": "Nichtkommutativität des Matrizenprodukts",
+            "link": "http://www.youtube.com/watch?v=Fj-hub2Ando",
+            "type": "video",
+            "time": "9:03"
+        },
+        {
+            "text": "zwei Spiegelungen nacheinander; Reihenfolge; Matrizenmultiplikation",
+            "link": "http://www.youtube.com/watch?v=zNBJfm3QMRo",
+            "type": "video",
+            "time": "12:12"
+        },
+        {
+            "text": "achte Potenz einer Matrix; Matrizen und komplexe Zahlen",
+            "link": "http://www.youtube.com/watch?v=Yy3W7DW4r5M",
+            "type": "video",
+            "time": "8:44"
+        },
+        {
+            "text": "dritte Potenz einer Matrix ist die Einheitsmatrix",
+            "link": "http://www.youtube.com/watch?v=4xZc59ctViY",
+            "type": "video",
+            "time": "3:30"
+        },
+        {
+            "text": "Spiegelungsmatrix aus Spiegelungsachse berechnen",
+            "link": "http://www.youtube.com/watch?v=iPc6xPMD9C0",
+            "type": "video",
+            "time": "11:46"
+        },
+        {
+            "text": "Spiegelungsachse aus Punkt und Bild bestimmen",
+            "link": "http://www.youtube.com/watch?v=xN1U1EkHBq8",
+            "type": "video",
+            "time": "5:20"
+        },
+        {
+            "text": "Matrix für Drehung um Hauptdiagonale im Raum",
+            "link": "http://www.youtube.com/watch?v=aa8uTwR_u9U",
+            "type": "video",
+            "time": "5:44"
+        },
+        {
+            "text": "Rezept für Matrizenprodukt",
+            "link": "http://www.youtube.com/watch?v=-bD5AyNKOPg",
+            "type": "video",
+            "time": "2:33"
+        }
+    ],
+    "Vorlesung 17/18 - Lineare Gleichungssysteme, Rang, Kern": [
+        {
+            "text": "Extra-Skript",
+            "link": "https://drive.google.com/file/d/0B1VFRCi6_vaIOWZsMnBHVUI0WTg/view?usp=sharing",
+            "type": "link"
+        },
+        {
+            "text": "Vorlesung 17:",
+            "type": "text"
+        },
+        {
+            "text": "Playlist (3 Videos): Einführung Lineare Gleichungssysteme 1-3 mit",
+            "link": "http://www.youtube.com/watch?v=d5R_F-KCzgM&list=PLDkKPlx5HxBejYbNAPZrojKWZRejshNRZ&feature=share",
+            "type": "link"
+        },
+        {
+            "text": "Extra-Skript",
+            "link": "https://drive.google.com/file/d/0B1VFRCi6_vaIOWZsMnBHVUI0WTg/view?usp=sharing",
+            "type": "link"
+        },
+        {
+            "text": "Lineare Gleichungssysteme, Existenz und Eindeutigkeit von Lösungen",
+            "link": "http://www.youtube.com/watch?v=Rr2zXvwsdeU",
+            "type": "video",
+            "time": "14:08"
+        },
+        {
+            "text": "Existenz von Lösungen linearer Gleichungssysteme",
+            "link": "http://www.youtube.com/watch?v=tC02Qslu5nw",
+            "type": "video",
+            "time": "14:42"
+        },
+        {
+            "text": "Vorlesung 18:",
+            "type": "text"
+        },
+        {
+            "text": "Spaltenraum, Bild, Rang einer Matrix",
+            "link": "http://www.youtube.com/watch?v=GkxxInaXFxY",
+            "type": "video",
+            "time": "18:50"
+        },
+        {
+            "text": "Eindeutigkeit der Lösung, homogenes Gleichungssystem",
+            "link": "http://www.youtube.com/watch?v=kaN5yu_kJTE",
+            "type": "video",
+            "time": "17:45"
+        },
+        {
+            "text": "Kern, Defekt einer Matrix",
+            "link": "http://www.youtube.com/watch?v=vYzoKfxoBpY",
+            "type": "video",
+            "time": "12:25"
+        },
+        {
+            "text": "Zeilenrang, Spaltenrang, unter-, überbestimmt",
+            "link": "http://www.youtube.com/watch?v=jRxruSBAVa8",
+            "type": "video",
+            "time": "25:56"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Rang, Spaltenraum, Defekt, Kern einer Matrix, lineares Gleichungssystem",
+            "link": "http://www.youtube.com/watch?v=wVePh1IL7Jc",
+            "type": "video",
+            "time": "23:05"
+        },
+        {
+            "text": "Lineare Gleichungssysteme; Lösungen nicht existent oder nicht eindeutig",
+            "link": "http://www.youtube.com/watch?v=aT0gwU1VaUw",
+            "type": "video",
+            "time": "9:40"
+        },
+        {
+            "text": "Spaltenraum, Rang, Defekt einer 2x3-Matrix",
+            "link": "http://www.youtube.com/watch?v=9-q-C0qMKcU",
+            "type": "video",
+            "time": "21:17"
+        },
+        {
+            "text": "Matrix zu gegebenem Spaltenraum finden",
+            "link": "http://www.youtube.com/watch?v=3BzQEk460cE",
+            "type": "video",
+            "time": "2:46"
+        },
+        {
+            "text": "Matrix mit Rang 3 mal Matrix mit Rang 1 soll Nullmatrix sein",
+            "link": "http://www.youtube.com/watch?v=ZzZ_fMTw7VA",
+            "type": "video",
+            "time": "13:26"
+        },
+        {
+            "text": "Beispiel Spaltenraum, Bild, Rang, Kern, Defekt; lineares Gleichungssystem",
+            "link": "http://www.youtube.com/watch?v=o48XiNYq4u4",
+            "type": "video",
+            "time": "23:03"
+        },
+        {
+            "text": "weiteres Beispiel Spaltenraum, Bild, Rang, Kern, Defekt; lineares Gleichungssystem",
+            "link": "http://www.youtube.com/watch?v=Q8dspqpZSBQ",
+            "type": "video",
+            "time": "12:11"
+        }
+    ],
+    "Vorlesung 19/20 - Determinante, Spatprodukt, Vektorprodukt, inverse Matrix": [
+        {
+            "text": "Vorlesung 19:",
+            "type": "text"
+        },
+        {
+            "text": "Determinate, Teil 1",
+            "link": "http://www.youtube.com/watch?v=1shtuE86BcU",
+            "type": "video",
+            "time": "14:42"
+        },
+        {
+            "text": "Determinante, Teil 2, Parallelepiped",
+            "link": "http://www.youtube.com/watch?v=x7JF6GRvpi4",
+            "type": "video",
+            "time": "18:25"
+        },
+        {
+            "text": "Determinante, Teil 3, antisymmetrische Multilinearform",
+            "link": "http://www.youtube.com/watch?v=Io22Sn1W43Q",
+            "type": "video",
+            "time": "15:54"
+        },
+        {
+            "text": "Determinante, Teil 4, Entwickeln, Sarrus",
+            "link": "http://www.youtube.com/watch?v=94TMIB7AojM",
+            "type": "video",
+            "time": "28:23"
+        },
+        {
+            "text": "Vorlesung 20:",
+            "type": "text"
+        },
+        {
+            "text": "Spatprodukt",
+            "link": "http://www.youtube.com/watch?v=fH4_8jpx1_c",
+            "type": "video",
+            "time": "3:54"
+        },
+        {
+            "text": "Vektorprodukt rechnerisch",
+            "link": "http://www.youtube.com/watch?v=kcVghUnWdy0",
+            "type": "video",
+            "time": "24:57"
+        },
+        {
+            "text": "Vektorprodukt geometrisch",
+            "link": "http://www.youtube.com/watch?v=bs_uMEtJuIE",
+            "type": "video",
+            "time": "22:45"
+        },
+        {
+            "text": "Produkte mit Vektoren, Zusammenfassung",
+            "link": "http://www.youtube.com/watch?v=FX5WbEEOz3o",
+            "type": "video",
+            "time": "7:14"
+        },
+        {
+            "text": "Inverse Matrix",
+            "link": "http://www.youtube.com/watch?v=_2Jy1ATTStU",
+            "type": "video",
+            "time": "15:18"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Fläche eines Parallelogramms im R³, Vektorprodukt, Kreuzprodukt",
+            "link": "http://www.youtube.com/watch?v=uonDgCu3WAY",
+            "type": "video",
+            "time": "8:43"
+        },
+        {
+            "text": "Vektorprodukt auflösbar oder nicht",
+            "link": "http://www.youtube.com/watch?v=3kjFBjhr7-Y",
+            "type": "video",
+            "time": "3:02"
+        },
+        {
+            "text": "Trägheitstensor und Drehimpuls mit Vektorprodukt, Spatprodukt, Skalarprodukt",
+            "link": "http://www.youtube.com/watch?v=7M1H_vBKC0Y",
+            "type": "video",
+            "time": "47:22"
+        },
+        {
+            "text": "Fläche eines Parallelograms im R² mittels Determinante",
+            "link": "http://www.youtube.com/watch?v=arU1IjUkC0s",
+            "type": "video",
+            "time": "5:40"
+        },
+        {
+            "text": "eine 3x3-Determinante ausrechnen",
+            "link": "http://www.youtube.com/watch?v=4mOxkQnnXEc",
+            "type": "video",
+            "time": "5:06"
+        },
+        {
+            "text": "eine 4x4-Determinante ausrechnen",
+            "link": "http://www.youtube.com/watch?v=oRXwixlaLYo",
+            "type": "video",
+            "time": "14:01"
+        },
+        {
+            "text": "Fläche eines Dreiecks im Raum",
+            "link": "http://www.youtube.com/watch?v=sdFPdDju-TI",
+            "type": "video",
+            "time": "10:26"
+        },
+        {
+            "text": "Vektorprodukt gleich gegebenem Vektor",
+            "link": "http://www.youtube.com/watch?v=qZDZRXusxQ4",
+            "type": "video",
+            "time": "4:29"
+        },
+        {
+            "text": "Gerade senkrecht durch Ebene; Abstand Ebene von Ursprung",
+            "link": "http://www.youtube.com/watch?v=QOMo3K5QcMw",
+            "type": "video",
+            "time": "13:19"
+        },
+        {
+            "text": "Vektor senkrecht zu drei gegebenen im R^4",
+            "link": "http://www.youtube.com/watch?v=eNWj3oBx8Uo",
+            "type": "video",
+            "time": "6:25"
+        },
+        {
+            "text": "doppeltes Vektorprodukt; BAC-CAB-Formel",
+            "link": "http://www.youtube.com/watch?v=t1G7EOiGTD0",
+            "type": "video",
+            "time": "12:40"
+        }
+    ],
+    "Vorlesung 21 - Cramer-, Gauss-, Jacobi-Verfahren": [
+        {
+            "text": "Vorlesung:",
+            "type": "text"
+        },
+        {
+            "text": "Cramer-Verfahren",
+            "link": "http://www.youtube.com/watch?v=Z8dAxn_UZlU",
+            "type": "video",
+            "time": "16:30"
+        },
+        {
+            "text": "Gaußsches Eliminationsverfahren",
+            "link": "http://www.youtube.com/watch?v=Vba_UYJJMco",
+            "type": "video",
+            "time": "20:48"
+        },
+        {
+            "text": "Jacobi-Verfahren, iterative Lösung",
+            "link": "http://www.youtube.com/watch?v=cQELGYMBWNQ",
+            "type": "video",
+            "time": "12:45"
+        },
+        {
+            "text": "Lineare Gleichungssysteme mit MATLAB(R) und Wolfram Alpha",
+            "link": "http://www.youtube.com/watch?v=ttunNCT5v-s",
+            "type": "video",
+            "time": "9:09"
+        },
+        {
+            "text": "Ergänzungen (optional zum Üben und Vertiefen):",
+            "type": "text"
+        },
+        {
+            "text": "Lineares Gleichungssystem, Gaußsches Eliminationsverfahren, Cramer-Regel, inverse Matrix",
+            "link": "http://www.youtube.com/watch?v=oUqD62R3-mQ",
+            "type": "video",
+            "time": "26:22"
+        },
+        {
+            "text": "mit Cramer-Regel 3x3-Matrix invertieren",
+            "link": "http://www.youtube.com/watch?v=TxXkt2Or4-Y",
+            "type": "video",
+            "time": "10:43"
+        },
+        {
+            "text": "inverse Matrix eines Matrixprodukts",
+            "link": "http://www.youtube.com/watch?v=pgBlBmJUlpA",
+            "type": "video",
+            "time": "4:45"
+        },
+        {
+            "text": "inverse Matrix einer 2x2-Matrix; Gleichungssystem lösen",
+            "link": "http://www.youtube.com/watch?v=XRf7YrXmOIs",
+            "type": "video",
+            "time": "15:45"
+        },
+        {
+            "text": "vier Lösungsverfahren für lineare Gleichungssysteme; Cramer, Gauß, Jacobi, inverse Matrix",
+            "link": "http://www.youtube.com/watch?v=O8-Lj40rXQM",
+            "type": "video",
+            "time": "29:15"
+        },
+        {
+            "text": "Gleichungssystem 2x3; Gaußsches Eliminationsverfahren; Bild, Rang, Kern, Defekt",
+            "link": "http://www.youtube.com/watch?v=JKm3xIq8TJQ",
+            "type": "video",
+            "time": "22:07"
+        }
+    ],
+    "Vorlesung 22/23 - Eigenvektoren": [
+        {
+            "text": "Eigenwerte, Eigenvektoren",
+            "link": "http://www.youtube.com/watch?v=WBf8BgPIdFI",
+            "type": "video",
+            "time": "11:11"
+        },
+        {
+            "text": "Anwendungen von Eigenvektoren",
+            "link": "http://www.youtube.com/watch?v=7ueepk6pWyU",
+            "type": "video",
+            "time": "16:51"
+        },
+        {
+            "text": "Bestimmung von Eigenwerten",
+            "link": "http://www.youtube.com/watch?v=hD3gUWLjtyM",
+            "type": "video",
+            "time": "25:45"
+        },
+        {
+            "text": "Vorlesung 23 (ohne Skript - Üben, Üben, Üben!):",
+            "type": "text"
+        },
+        {
+            "text": "Eigenwerte, Eigenvektoren bestimmen; charakteristisches Polynom",
+            "link": "http://www.youtube.com/watch?v=i0ggTPAe1GU",
+            "type": "video",
+            "time": "34:21"
+        },
+        {
+            "text": "Eigenwerte, Eigenvektoren symmetrischer Matrizen",
+            "link": "http://www.youtube.com/watch?v=lyvhmHluQU0",
+            "type": "video",
+            "time": "10:21"
+        },
+        {
+            "text": "Eigenwerte einer 3x3-Matrix",
+            "link": "http://www.youtube.com/watch?v=BBbTHOJBHxI",
+            "type": "video",
+            "time": "15:07"
+        },
+        {
+            "text": "Eigenvektoren von 2x2- und 3x3-Matrizen bestimmen",
+            "link": "http://www.youtube.com/watch?v=KDx8pOft3FM",
+            "type": "video",
+            "time": "14:37"
+        },
+        {
+            "text": "Matrix zu Eigenvektor und Eigenwert bestimmen",
+            "link": "http://www.youtube.com/watch?v=hM3bKfECW5Q",
+            "type": "video",
+            "time": "5:22"
+        },
+        {
+            "text": "Eigenwerte einer 2x2-Drehungsmatrix",
+            "link": "http://www.youtube.com/watch?v=NJPJLcxTgk4",
+            "type": "video",
+            "time": "2:03"
+        },
+        {
+            "text": "Eigenwerte und Eigenvektoren einer 3x3-Matrix",
+            "link": "http://www.youtube.com/watch?v=Go8LGWvpn28",
+            "type": "video",
+            "time": "23:15"
+        },
+        {
+            "text": "Eigenwerte mit Spur und Determinante prüfen",
+            "link": "http://www.youtube.com/watch?v=qzAfwK_T-1I",
+            "type": "video",
+            "time": "8:32"
+        },
+        {
+            "text": "Eigenwerte einer 3x3-Matrix; Test mit Spur und Determinante",
+            "link": "http://www.youtube.com/watch?v=ryQ0y9q8EpA",
+            "type": "video",
+            "time": "5:39"
+        },
+        {
+            "text": "Eigenvektor zu einer 3x3-Matrix; Eigenwert gegeben",
+            "link": "http://www.youtube.com/watch?v=Kpp30lbPqRU",
+            "type": "video",
+            "time": "11:36"
+        },
+        {
+            "text": "Eigenwerte, Eigenvektoren einer 2x2-Matrix",
+            "link": "http://www.youtube.com/watch?v=yMrXgOj3kVA",
+            "type": "video",
+            "time": "9:06"
+        }
+    ],
+    "Vorlesung 24 - Anwendung von EV: Google Page Rank": [
+        {
+            "text": "Lesen Sie vorab die Artikel:",
+            "type": "text"
+        },
+        {
+            "text": "Google's PageRank-Algorithmus zur Bewertung von Webseiten für Suchmaschinen:",
+            "type": "text"
+        },
+        {
+            "text": "Wikipedia,",
+            "link": "http://de.wikipedia.org/wiki/PageRank",
+            "type": "link"
+        },
+        {
+            "text": "zum Schmökern (optional): Original-Paper der Google-Gründer Larry Page und Sergey Brin",
+            "link": "http://infolab.stanford.edu/~backrub/google.html",
+            "type": "link"
+        },
+        {
+            "text": "Markov-Ketten und stochastische Matrizen: Wikipedia",
+            "link": "http://de.wikipedia.org/wiki/%C3%9Cbergangsmatrix",
+            "type": "link"
+        },
+        {
+            "text": "„PageRank-Beispiel“ von",
+            "link": "http://commons.wikimedia.org/wiki/File:PageRank-Beispiel.png#mediaviewer/Datei:PageRank-Beispiel.png",
+            "type": "link"
+        },
+        {
+            "text": "Zetkin - . Lizenziert unter",
+            "link": "https://commons.wikimedia.org/wiki/User:Zetkin",
+            "type": "link"
+        },
+        {
+            "text": "CC BY-SA 3.0 über",
+            "link": "http://creativecommons.org/licenses/by-sa/3.0",
+            "type": "link"
+        },
+        {
+            "text": "Wikimedia Commons .",
+            "link": "https://commons.wikimedia.org/wiki/",
+            "type": "link"
+        },
+        {
+            "text": "Weiterführend und weitere Anwendungen in der Informatik: https://www.coursera.org/course/matrix",
+            "link": "https://www.coursera.org/course/matrix",
+            "type": "link"
+        }
+    ]
+}
