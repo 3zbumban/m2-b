@@ -1,34 +1,55 @@
 <script>
 // import "lite-youtube-embed";
+import marked from "marked";
+import domPurify from "dompurify";
 
-export let data;
+export let raw_data;
+
+const data = localStorage.getItem("data") ? JSON.parse(localStorage.getItem("data")) : raw_data;
 
 const themen = Object.keys(data);
-let currentThema = 0;
+let currentThema = localStorage.getItem("currentThema") ? JSON.parse(localStorage.getItem("currentThema")) : 0;
 let currentVid = "";
 let active = {};
+let prewiev = false;
 
-$: notes = `# ${themen[currentThema]}\n`;
+$: notes = JSON.parse(localStorage.getItem("notes")) ? JSON.parse(localStorage.getItem("notes")) : themen.map(el => `# ${el}\n\n`);
+// $: notes = JSON.parse(localStorage.getItem("notes"))[themen[currentThema]] ? JSON.parse(localStorage.getItem("notes"))[themen[currentThema]] 
+// : notes[themen[currentThema]] = `# ${themen[currentThema]}\n\n`; 
+
+// $: note = notes[themen[currentThema]] ? notes[themen[currentThema]] : `# ${themen[currentThema]}\n\n`;
 
 $: next = currentThema<themen.length-1 ? currentThema+1 : 0;
 $: prev = currentThema>0 ? currentThema-1 : themen.length-1;
-$: console.log(`[i] currentThema: ${currentThema}`);
+$: console.log(`[i] currentThema: ${themen[currentThema]}`);
+// $: console.log(`[i] currentThema: ${notes}`);
 
-function back () {
-	currentThema=prev;
-	console.log(`[i] back: ${currentThema}`);
+window.addEventListener("beforeunload", (event) => {
+	// event.preventDefault();
+	sync();
+});
 
-}
-
-function forth () {
-	currentThema=next;
-	console.log(`[i] forth: ${currentThema}`);
-
+function go(dest) {
+	currentThema=dest;
+	sync();
+	console.log(`[i] go: ${currentThema}`);
 }
 
 function clickVid(event) {
 	console.log(event.target.href);
 	currentVid = event.target.href;
+}
+
+function toggle(i) {
+	data[themen[currentThema]][i].done = !data[themen[currentThema]][i].done;
+	sync();
+}
+
+function sync() {
+	// notes[themen[currentThema]] = note;
+	window.localStorage.setItem("notes", JSON.stringify(notes));
+	window.localStorage.setItem("data", JSON.stringify(data));
+	window.localStorage.setItem("currentThema", JSON.stringify(currentThema));
 }
 
 </script>
@@ -41,56 +62,71 @@ function clickVid(event) {
 	<div id="themen">
 		{#each data[themen[currentThema]] as t, i}
 		<div class="{active.text === t.text && active.time === t.time ? "active" : ""} {t.done ? "done" : ""} topic" on:click={()=>{active.text = t.text; active.time = t.time}}>
+			<div>
 			{#if t.type === "text"}
 				<span class="f2">📃{t.text}</span>
 			{:else if t.type === "link"}
-				<span>🌐<a target="_blank" rel="noopener noreferrer" href={t.link}>{t.text}</a></span>
+				<span>
+					<span>🌐</span>
+					<span>
+						<a target="_blank" rel="noopener noreferrer" href={t.link}>{t.text}</a>
+					</span>
+				</span>
 			{:else if t.type === "video"}
-				<span>📹<a on:click|preventDefault={event => clickVid(event)} href={t.link}>{t.text}</a>
-				<span class="time">@{t.time}</span>
-			</span>
+				<span>
+					<span>📹</span>
+					<span>
+						<a on:click|preventDefault={event => clickVid(event)} href={t.link}>{t.text}</a>
+					</span>
+					<span class="time">@{t.time}</span>
+				</span>
 			{:else if t.type === "img"}
-				<span>📷<img src={t.link} alt={t.text}></span>
+				<span><span>📷</span><img src={t.link} alt={t.text}></span>
 			{:else}
 				<span>Error! {t.type} case not found!!</span>
 			{/if}
-				<span class="toggler" on:click={() => {data[themen[currentThema]][i].done = !data[themen[currentThema]][i].done}}>
+			</div>
+				<div><span class="toggler" on:click={() => {toggle(i)}}>
 				{#if !!t.done}
-					<span>
-					❌
-					</span>
+					<span>❌</span>
 				{:else}
-					<span>
-					✔
-					</span>
+					<span>✔</span>
 				{/if}
-				</span>
-				</div>
+				</span></div>
+			</div>
 		{/each}
 	</div>
 	<div id="control">
 		<!-- <div> -->
-			<button class="" on:click={back}>&larr;
+			<button class="" on:click={() => {go(prev)}}>&larr;
 				<span class="">{prev+1}</span>
 			</button>
-			<button class="" on:click={forth}>&rarr;
+			<button class="" on:click={() => {go(next)}}>&rarr;
 				<span class="">{next+1}</span>
 			</button>
 		<!-- </div> -->
 	</div>
 </div>
 <div id="video">
-{#if currentVid !== ""}
-<iframe title="player" width="" height="" src={`https://www.youtube-nocookie.com/embed/${new URL(currentVid).search.slice(3)}`} 
-frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-{/if}
+	{#if currentVid !== ""}
+		<iframe title="player" width="" height="" src={`https://www.youtube-nocookie.com/embed/${new URL(currentVid).search.slice(3)}`} 
+		frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+	{/if}
 </div>
 <div id="notes">
-	<div id="pad">
-	<textarea bind:value={notes} name="notes" id="" cols="30" rows="10" placeholder="take notes here..."></textarea>
-	</div>
+		<div id="pad">
+	{#if !prewiev}
+			<textarea bind:value={notes[currentThema]} name="notes" id="" cols="30" rows="10" placeholder="take notes here..."></textarea>
+	{:else}
+			<div id="preview">
+				<div>
+					{@html domPurify.sanitize(marked(notes[currentThema]))}
+				</div>
+			</div>
+	{/if}
+		</div>
 	<div id="pad-controls">
-		<button class="">&#9889;</button>
+		<button class="" on:click={() => {prewiev = !prewiev}}>&#9889;</button>
 	</div>
 </div>
 </main>
@@ -106,18 +142,24 @@ frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfulls
 main {
 	height: 100vh;
 	width: 100vw;
-	background-color: black;
+	min-height: 0;  /* NEW */
+  	min-width: 0;   /* NEW; needed for Firefox */
+	background-color: white;
 	display: grid;
+	// todo:
 	grid-template-columns: 1fr 3fr;
 	grid-template-rows: 3fr 1fr;
+	// grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+	// grid-template-rows: minmax(0, 3fr) minmax(0, 1fr);
+
 }
 
 .topic {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: baseline;
-	white-space: nowrap;
+	align-items: center;
+	// white-space: nowrap;
 }
 
 .active {
@@ -128,14 +170,16 @@ main {
 	text-decoration: line-through;
 	text-decoration-color: green;
 	opacity: 0.3;
-}
-
-span {
-     vertical-align:middle;
+	div {
+		.toggler {
+			text-decoration: none;
+		}
+	}
 }
 
 .toggler {
 	cursor: pointer;
+	text-decoration: none;
 }
 
 
@@ -144,7 +188,7 @@ span {
 	grid-column-end: 1;
 	grid-row-start: 1;
 	grid-row-end: 3;
-	background-color: yellow;
+	// background-color: yellow;
 	display: flex;
 	flex-direction: column;
 	padding: 0px 5px 0px 5px;
@@ -160,13 +204,16 @@ span {
 		flex-direction: column;
 		img {
 			max-width: 100%;
-			border: 2px solid yellow;
+			border: 2px solid green;
 		}
 	}
 	#control {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		button {
+			width: 50%;
+		}
 		// padding: 2px;
 	}
 
@@ -176,7 +223,7 @@ span {
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	background-color: green;
+	background-color: black;
 	iframe {
 		width: 100%;
 		height: 100%;
@@ -187,17 +234,29 @@ span {
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	background-color: red;
+	// background-color: red;
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
 	#pad {
 		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
 		textarea {
 			width: 100%;
 			height: 100%;
 			resize: none;
 		}
+		#preview {
+		flex-grow: 1;
+		overflow: auto;
+		div {
+			max-width: 100%;
+			max-height: 100%;
+			width: 100%;
+			height: 100%;
+		}
+	}
 	}
 	#pad-controls {
 		background-color: gray;

@@ -4,7 +4,7 @@ import data from "./m2_alt.json";
 const app = new App({
 	target: document.body,
 	props: {
-		data
+		raw_data: data
 	}
 });
 

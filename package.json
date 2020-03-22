@@ -19,6 +19,8 @@
     "svelte-preprocess": "^3.5.0"
   },
   "dependencies": {
+    "dompurify": "^2.0.8",
+    "marked": "^0.8.2",
     "normalize.css": "^8.0.1",
     "sirv-cli": "^0.4.4"
   }
