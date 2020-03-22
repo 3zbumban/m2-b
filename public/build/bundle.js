@@ -371,7 +371,7 @@ var app = (function () {
     			t0 = text("Error! ");
     			t1 = text(t1_value);
     			t2 = text(" case not found!!");
-    			attr_dev(span, "class", "svelte-1teb5a0");
+    			attr_dev(span, "class", "svelte-n3bvnr");
     			add_location(span, file, 54, 4, 1415);
     		},
     		m: function mount(target, anchor) {
@@ -414,9 +414,9 @@ var app = (function () {
     			img = element("img");
     			if (img.src !== (img_src_value = /*t*/ ctx[15].link)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*t*/ ctx[15].text);
-    			attr_dev(img, "class", "svelte-1teb5a0");
+    			attr_dev(img, "class", "svelte-n3bvnr");
     			add_location(img, file, 52, 12, 1361);
-    			attr_dev(span, "class", "svelte-1teb5a0");
+    			attr_dev(span, "class", "svelte-n3bvnr");
     			add_location(span, file, 52, 4, 1353);
     		},
     		m: function mount(target, anchor) {
@@ -475,10 +475,11 @@ var app = (function () {
     			t3 = text("@");
     			t4 = text(t4_value);
     			attr_dev(a, "href", a_href_value = /*t*/ ctx[15].link);
+    			attr_dev(a, "class", "svelte-n3bvnr");
     			add_location(a, file, 48, 12, 1186);
-    			attr_dev(span0, "class", "time svelte-1teb5a0");
+    			attr_dev(span0, "class", "time svelte-n3bvnr");
     			add_location(span0, file, 49, 4, 1271);
-    			attr_dev(span1, "class", "svelte-1teb5a0");
+    			attr_dev(span1, "class", "svelte-n3bvnr");
     			add_location(span1, file, 48, 4, 1178);
     		},
     		m: function mount(target, anchor, remount) {
@@ -537,8 +538,9 @@ var app = (function () {
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "rel", "noopener noreferrer");
     			attr_dev(a, "href", a_href_value = /*t*/ ctx[15].link);
+    			attr_dev(a, "class", "svelte-n3bvnr");
     			add_location(a, file, 46, 12, 1062);
-    			attr_dev(span, "class", "svelte-1teb5a0");
+    			attr_dev(span, "class", "svelte-n3bvnr");
     			add_location(span, file, 46, 4, 1054);
     		},
     		m: function mount(target, anchor) {
@@ -582,7 +584,7 @@ var app = (function () {
     			span = element("span");
     			t0 = text("📃");
     			t1 = text(t1_value);
-    			attr_dev(span, "class", "f2 svelte-1teb5a0");
+    			attr_dev(span, "class", "f2 svelte-n3bvnr");
     			add_location(span, file, 44, 4, 983);
     		},
     		m: function mount(target, anchor) {
@@ -617,7 +619,7 @@ var app = (function () {
     		c: function create() {
     			span = element("span");
     			span.textContent = "✔";
-    			attr_dev(span, "class", "svelte-1teb5a0");
+    			attr_dev(span, "class", "svelte-n3bvnr");
     			add_location(span, file, 62, 5, 1657);
     		},
     		m: function mount(target, anchor) {
@@ -647,7 +649,7 @@ var app = (function () {
     		c: function create() {
     			span = element("span");
     			span.textContent = "❌";
-    			attr_dev(span, "class", "svelte-1teb5a0");
+    			attr_dev(span, "class", "svelte-n3bvnr");
     			add_location(span, file, 58, 5, 1613);
     		},
     		m: function mount(target, anchor) {
@@ -713,9 +715,9 @@ var app = (function () {
     			span = element("span");
     			if_block1.c();
     			t1 = space();
-    			attr_dev(span, "class", "toggler svelte-1teb5a0");
+    			attr_dev(span, "class", "toggler svelte-n3bvnr");
     			add_location(span, file, 56, 4, 1474);
-    			attr_dev(div, "class", div_class_value = "" + ((/*active*/ ctx[3] === /*t*/ ctx[15].text ? "active" : "") + " topic " + (/*t*/ ctx[15].done ? "done" : "") + " svelte-1teb5a0"));
+    			attr_dev(div, "class", div_class_value = "" + ((/*active*/ ctx[3] === /*t*/ ctx[15].text ? "active" : "") + " topic " + (/*t*/ ctx[15].done ? "done" : "") + " svelte-n3bvnr"));
     			add_location(div, file, 42, 2, 840);
     		},
     		m: function mount(target, anchor, remount) {
@@ -757,7 +759,7 @@ var app = (function () {
     				}
     			}
 
-    			if (dirty & /*active, data, currentThema*/ 11 && div_class_value !== (div_class_value = "" + ((/*active*/ ctx[3] === /*t*/ ctx[15].text ? "active" : "") + " topic " + (/*t*/ ctx[15].done ? "done" : "") + " svelte-1teb5a0"))) {
+    			if (dirty & /*active, data, currentThema*/ 11 && div_class_value !== (div_class_value = "" + ((/*active*/ ctx[3] === /*t*/ ctx[15].text ? "active" : "") + " topic " + (/*t*/ ctx[15].done ? "done" : "") + " svelte-n3bvnr"))) {
     				attr_dev(div, "class", div_class_value);
     			}
     		},
@@ -780,7 +782,7 @@ var app = (function () {
     	return block;
     }
 
-    // (81:0) {#if currentVid !== ""}
+    // (83:0) {#if currentVid !== ""}
     function create_if_block(ctx) {
     	let iframe;
     	let iframe_src_value;
@@ -795,8 +797,8 @@ var app = (function () {
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; encrypted-media; picture-in-picture");
     			iframe.allowFullscreen = true;
-    			attr_dev(iframe, "class", "svelte-1teb5a0");
-    			add_location(iframe, file, 81, 0, 1988);
+    			attr_dev(iframe, "class", "svelte-n3bvnr");
+    			add_location(iframe, file, 83, 0, 2029);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, iframe, anchor);
@@ -815,7 +817,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(81:0) {#if currentVid !== \\\"\\\"}",
+    		source: "(83:0) {#if currentVid !== \\\"\\\"}",
     		ctx
     	});
 
@@ -886,12 +888,12 @@ var app = (function () {
     			t4 = space();
     			div2 = element("div");
     			button0 = element("button");
-    			t5 = text("←\n\t\t\t");
+    			t5 = text("←\n\t\t\t\t");
     			span0 = element("span");
     			t6 = text(t6_value);
     			t7 = space();
     			button1 = element("button");
-    			t8 = text("→\n\t\t\t");
+    			t8 = text("→\n\t\t\t\t");
     			span1 = element("span");
     			t9 = text(t9_value);
     			t10 = space();
@@ -905,50 +907,50 @@ var app = (function () {
     			div6 = element("div");
     			button2 = element("button");
     			button2.textContent = "⚡";
-    			attr_dev(p, "class", "");
+    			attr_dev(p, "class", " svelte-n3bvnr");
     			add_location(p, file, 38, 2, 709);
     			attr_dev(div0, "id", "currentTopic");
-    			attr_dev(div0, "class", "svelte-1teb5a0");
+    			attr_dev(div0, "class", "svelte-n3bvnr");
     			add_location(div0, file, 37, 1, 683);
     			attr_dev(div1, "id", "themen");
-    			attr_dev(div1, "class", "svelte-1teb5a0");
+    			attr_dev(div1, "class", "svelte-n3bvnr");
     			add_location(div1, file, 40, 1, 775);
-    			attr_dev(span0, "class", " svelte-1teb5a0");
-    			add_location(span0, file, 72, 3, 1800);
-    			attr_dev(button0, "class", "");
-    			add_location(button0, file, 71, 2, 1757);
-    			attr_dev(span1, "class", " svelte-1teb5a0");
-    			add_location(span1, file, 75, 3, 1889);
-    			attr_dev(button1, "class", "");
-    			add_location(button1, file, 74, 2, 1845);
+    			attr_dev(span0, "class", " svelte-n3bvnr");
+    			add_location(span0, file, 73, 4, 1819);
+    			attr_dev(button0, "class", " svelte-n3bvnr");
+    			add_location(button0, file, 72, 3, 1775);
+    			attr_dev(span1, "class", " svelte-n3bvnr");
+    			add_location(span1, file, 76, 4, 1911);
+    			attr_dev(button1, "class", " svelte-n3bvnr");
+    			add_location(button1, file, 75, 3, 1866);
     			attr_dev(div2, "id", "control");
-    			attr_dev(div2, "class", "svelte-1teb5a0");
+    			attr_dev(div2, "class", "svelte-n3bvnr");
     			add_location(div2, file, 70, 1, 1736);
     			attr_dev(div3, "id", "material");
-    			attr_dev(div3, "class", "svelte-1teb5a0");
+    			attr_dev(div3, "class", "svelte-n3bvnr");
     			add_location(div3, file, 36, 0, 662);
     			attr_dev(div4, "id", "video");
-    			attr_dev(div4, "class", "svelte-1teb5a0");
-    			add_location(div4, file, 79, 0, 1947);
+    			attr_dev(div4, "class", "svelte-n3bvnr");
+    			add_location(div4, file, 81, 0, 1988);
     			attr_dev(textarea, "name", "notes");
     			attr_dev(textarea, "id", "");
     			attr_dev(textarea, "cols", "30");
     			attr_dev(textarea, "rows", "10");
     			attr_dev(textarea, "placeholder", "take notes here...");
-    			attr_dev(textarea, "class", "svelte-1teb5a0");
-    			add_location(textarea, file, 87, 1, 2260);
+    			attr_dev(textarea, "class", "svelte-n3bvnr");
+    			add_location(textarea, file, 89, 1, 2301);
     			attr_dev(div5, "id", "pad");
-    			attr_dev(div5, "class", "svelte-1teb5a0");
-    			add_location(div5, file, 86, 1, 2244);
-    			attr_dev(button2, "class", "");
-    			add_location(button2, file, 90, 2, 2408);
+    			attr_dev(div5, "class", "svelte-n3bvnr");
+    			add_location(div5, file, 88, 1, 2285);
+    			attr_dev(button2, "class", " svelte-n3bvnr");
+    			add_location(button2, file, 92, 2, 2449);
     			attr_dev(div6, "id", "pad-controls");
-    			attr_dev(div6, "class", "svelte-1teb5a0");
-    			add_location(div6, file, 89, 1, 2382);
+    			attr_dev(div6, "class", "svelte-n3bvnr");
+    			add_location(div6, file, 91, 1, 2423);
     			attr_dev(div7, "id", "notes");
-    			attr_dev(div7, "class", "svelte-1teb5a0");
-    			add_location(div7, file, 85, 0, 2226);
-    			attr_dev(main, "class", "svelte-1teb5a0");
+    			attr_dev(div7, "class", "svelte-n3bvnr");
+    			add_location(div7, file, 87, 0, 2267);
+    			attr_dev(main, "class", "svelte-n3bvnr");
     			add_location(main, file, 35, 0, 655);
     		},
     		l: function claim(nodes) {
@@ -1278,7 +1280,7 @@ var app = (function () {
     		type: "text"
     	},
     	{
-    		text: "Grenzwertbestimmung für komplizierte Funktion,undefined   Grenzwertsätze, Stetigkeit",
+    		text: "Grenzwertbestimmung für komplizierte Funktion, Grenzwertsätze, Stetigkeit",
     		link: "http://www.youtube.com/watch?v=tvYW502auCM",
     		type: "video",
     		time: "14:01"
@@ -1514,7 +1516,7 @@ var app = (function () {
     		time: "5:19"
     	},
     	{
-    		text: "Strecke aus Geschwindigkeitsverlauf, Integral, Stammfunktion,undefined   Einheiten",
+    		text: "Strecke aus Geschwindigkeitsverlauf, Integral, Stammfunktion, Einheiten",
     		link: "http://www.youtube.com/watch?v=8gyxPD5pniw",
     		type: "video",
     		time: "29:13"
@@ -1578,7 +1580,7 @@ var app = (function () {
     		type: "text"
     	},
     	{
-    		text: "Fingerübungen zu Ableitungen; Kettenregel, Potenzregel,undefined   Produktregel, Quotientenregel",
+    		text: "Fingerübungen zu Ableitungen; Kettenregel, Potenzregel, Produktregel, Quotientenregel",
     		link: "http://www.youtube.com/watch?v=X78Ysz1A8a4",
     		type: "video",
     		time: "11:58"
@@ -1590,7 +1592,7 @@ var app = (function () {
     		time: "18:59"
     	},
     	{
-    		text: "Nur bei Exponentialfunktionen ist die Ableitung konstantesundefined   Vielfaches der Funktion",
+    		text: "Nur bei Exponentialfunktionen ist die Ableitung konstantes Vielfaches der Funktion",
     		link: "http://www.youtube.com/watch?v=IC_679y1YTA",
     		type: "video",
     		time: "8:33"
@@ -1671,13 +1673,13 @@ var app = (function () {
     		time: "7:30"
     	},
     	{
-    		text: "optimale Dose, maximales Volumen, minimale Oberfläche,undefined   Ableitung",
+    		text: "optimale Dose, maximales Volumen, minimale Oberfläche, Ableitung",
     		link: "http://www.youtube.com/watch?v=J-YLyBaAt4c",
     		type: "video",
     		time: "35:52"
     	},
     	{
-    		text: "schnellste Verbindung, Ableitung, snelliussches Brechungsgesetzundefined   der Optik",
+    		text: "schnellste Verbindung, Ableitung, snelliussches Brechungsgesetz der Optik",
     		link: "http://www.youtube.com/watch?v=9hUOolW-894",
     		type: "video",
     		time: "14:32"
@@ -1741,7 +1743,7 @@ var app = (function () {
     		type: "text"
     	},
     	{
-    		text: "Ableitung von Messreihen schätzen, numerischesundefined   Differenzieren, Fehlerschätzung",
+    		text: "Ableitung von Messreihen schätzen, numerisches Differenzieren, Fehlerschätzung",
     		link: "http://www.youtube.com/watch?v=o6SOjC6DQx4",
     		type: "video",
     		time: "29:59"
@@ -1816,7 +1818,7 @@ var app = (function () {
     		type: "text"
     	},
     	{
-    		text: "Zusammenfassung bestimmtes Integral, Stammfunktion, Wurzelfunktionundefined   integrieren",
+    		text: "Zusammenfassung bestimmtes Integral, Stammfunktion, Wurzelfunktionund integrieren",
     		link: "http://www.youtube.com/watch?v=LWTtOCj8U4Q",
     		type: "video",
     		time: "11:51"
@@ -1828,7 +1830,7 @@ var app = (function () {
     		time: "13:08"
     	},
     	{
-    		text: "numerische Integration, Trapezverfahren, Fehlerschätzung,undefined   Romberg, Richardson",
+    		text: "numerische Integration, Trapezverfahren, Fehlerschätzung, Romberg, Richardson",
     		link: "http://www.youtube.com/watch?v=wXdOZz2hx3g",
     		type: "video",
     		time: "22:41"
@@ -1874,13 +1876,13 @@ var app = (function () {
     		type: "text"
     	},
     	{
-    		text: "Partielle Integration, Substitutionsregel, Integration durchundefined   Partialbruchzerlegung",
+    		text: "Partielle Integration, Substitutionsregel, Integration durch Partialbruchzerlegung",
     		link: "http://www.youtube.com/watch?v=bqe7Ct14__k",
     		type: "video",
     		time: "19:33"
     	},
     	{
-    		text: "Beispiele partielle Integration, Substitutionsregel, Integrationundefined   durch Partialbruchzerlegung",
+    		text: "Beispiele partielle Integration, Substitutionsregel, Integration durch Partialbruchzerlegung",
     		link: "http://www.youtube.com/watch?v=-MOjddiR7S8",
     		type: "video",
     		time: "37:16"
@@ -1962,7 +1964,7 @@ var app = (function () {
     		time: "16:21"
     	},
     	{
-    		text: "nichtlineare Gleichung mit Schmiegeparabel in quadr. Gleichungundefined   umwandeln, Taylor",
+    		text: "nichtlineare Gleichung mit Schmiegeparabel in quadr. Gleichung umwandeln, Taylor",
     		link: "http://www.youtube.com/watch?v=bTmU0UJPrBk",
     		type: "video",
     		time: "12:14"
@@ -2341,7 +2343,7 @@ var app = (function () {
     		time: "14:50"
     	},
     	{
-    		text: "weiter Fundamentalsatz der Algebra, Nullstellen von Polynomen imundefined   Komplexen",
+    		text: "weiter Fundamentalsatz der Algebra, Nullstellen von Polynomen im Komplexen",
     		link: "http://www.youtube.com/watch?v=JHHTKNHJgY8",
     		type: "video",
     		time: "14:31"
@@ -2357,7 +2359,7 @@ var app = (function () {
     		time: "13:32"
     	},
     	{
-    		text: "Mächtigkeit, 1. und 2. Cantorsches Diagonalverfahren,undefined   (Über-)Abzählbarkeit",
+    		text: "Mächtigkeit, 1. und 2. Cantorsches Diagonalverfahren, (Über-)Abzählbarkeit",
     		link: "http://www.youtube.com/watch?v=N3ybfG-e_UA",
     		type: "video",
     		time: "25:46"

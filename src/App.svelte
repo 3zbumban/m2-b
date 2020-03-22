@@ -69,12 +69,14 @@ function clickVid(event) {
 		{/each}
 	</div>
 	<div id="control">
-		<button class="" on:click={back}>&larr;
-			<span class="">{prev+1}</span>
-		</button>
-		<button class="" on:click={forth}>&rarr;
-			<span class="">{next+1}</span>
-		</button>
+		<!-- <div> -->
+			<button class="" on:click={back}>&larr;
+				<span class="">{prev+1}</span>
+			</button>
+			<button class="" on:click={forth}>&rarr;
+				<span class="">{next+1}</span>
+			</button>
+		<!-- </div> -->
 	</div>
 </div>
 <div id="video">
@@ -94,6 +96,8 @@ frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfulls
 </main>
 
 <style lang="scss">
+@import "../node_modules/normalize.css/normalize";
+
 :global(body) {
 	padding: 0;
 	overflow: hidden;
@@ -141,9 +145,11 @@ span {
 	background-color: yellow;
 	display: flex;
 	flex-direction: column;
-	padding: 5px 5px 0px 5px;
+	padding: 0px 0px 0px 5px;
 	#currentTopic {
 		text-decoration: underline;
+		display: flex;
+		flex-direction: row;
 	}
 	#themen {
 		overflow: auto;
