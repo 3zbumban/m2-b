@@ -371,7 +371,7 @@ var app = (function () {
     			t0 = text("Error! ");
     			t1 = text(t1_value);
     			t2 = text(" case not found!!");
-    			attr_dev(span, "class", "svelte-evz5s");
+    			attr_dev(span, "class", "svelte-1iaybvj");
     			add_location(span, file, 54, 4, 1473);
     		},
     		m: function mount(target, anchor) {
@@ -414,9 +414,9 @@ var app = (function () {
     			img = element("img");
     			if (img.src !== (img_src_value = /*t*/ ctx[15].link)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*t*/ ctx[15].text);
-    			attr_dev(img, "class", "svelte-evz5s");
+    			attr_dev(img, "class", "svelte-1iaybvj");
     			add_location(img, file, 52, 12, 1419);
-    			attr_dev(span, "class", "svelte-evz5s");
+    			attr_dev(span, "class", "svelte-1iaybvj");
     			add_location(span, file, 52, 4, 1411);
     		},
     		m: function mount(target, anchor) {
@@ -475,11 +475,11 @@ var app = (function () {
     			t3 = text("@");
     			t4 = text(t4_value);
     			attr_dev(a, "href", a_href_value = /*t*/ ctx[15].link);
-    			attr_dev(a, "class", "svelte-evz5s");
+    			attr_dev(a, "class", "svelte-1iaybvj");
     			add_location(a, file, 48, 12, 1244);
-    			attr_dev(span0, "class", "time svelte-evz5s");
+    			attr_dev(span0, "class", "time svelte-1iaybvj");
     			add_location(span0, file, 49, 4, 1329);
-    			attr_dev(span1, "class", "svelte-evz5s");
+    			attr_dev(span1, "class", "svelte-1iaybvj");
     			add_location(span1, file, 48, 4, 1236);
     		},
     		m: function mount(target, anchor, remount) {
@@ -538,9 +538,9 @@ var app = (function () {
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "rel", "noopener noreferrer");
     			attr_dev(a, "href", a_href_value = /*t*/ ctx[15].link);
-    			attr_dev(a, "class", "svelte-evz5s");
+    			attr_dev(a, "class", "svelte-1iaybvj");
     			add_location(a, file, 46, 12, 1120);
-    			attr_dev(span, "class", "svelte-evz5s");
+    			attr_dev(span, "class", "svelte-1iaybvj");
     			add_location(span, file, 46, 4, 1112);
     		},
     		m: function mount(target, anchor) {
@@ -584,7 +584,7 @@ var app = (function () {
     			span = element("span");
     			t0 = text("📃");
     			t1 = text(t1_value);
-    			attr_dev(span, "class", "f2 svelte-evz5s");
+    			attr_dev(span, "class", "f2 svelte-1iaybvj");
     			add_location(span, file, 44, 4, 1041);
     		},
     		m: function mount(target, anchor) {
@@ -619,7 +619,7 @@ var app = (function () {
     		c: function create() {
     			span = element("span");
     			span.textContent = "✔";
-    			attr_dev(span, "class", "svelte-evz5s");
+    			attr_dev(span, "class", "svelte-1iaybvj");
     			add_location(span, file, 62, 5, 1715);
     		},
     		m: function mount(target, anchor) {
@@ -649,7 +649,7 @@ var app = (function () {
     		c: function create() {
     			span = element("span");
     			span.textContent = "❌";
-    			attr_dev(span, "class", "svelte-evz5s");
+    			attr_dev(span, "class", "svelte-1iaybvj");
     			add_location(span, file, 58, 5, 1671);
     		},
     		m: function mount(target, anchor) {
@@ -715,12 +715,12 @@ var app = (function () {
     			span = element("span");
     			if_block1.c();
     			t1 = space();
-    			attr_dev(span, "class", "toggler svelte-evz5s");
+    			attr_dev(span, "class", "toggler svelte-1iaybvj");
     			add_location(span, file, 56, 4, 1532);
 
     			attr_dev(div, "class", div_class_value = "" + ((/*active*/ ctx[3].text === /*t*/ ctx[15].text && /*active*/ ctx[3].time === /*t*/ ctx[15].time
     			? "active"
-    			: "") + " " + (/*t*/ ctx[15].done ? "done" : "") + " topic" + " svelte-evz5s"));
+    			: "") + " " + (/*t*/ ctx[15].done ? "done" : "") + " topic" + " svelte-1iaybvj"));
 
     			add_location(div, file, 42, 2, 840);
     		},
@@ -765,7 +765,7 @@ var app = (function () {
 
     			if (dirty & /*active, data, currentThema*/ 11 && div_class_value !== (div_class_value = "" + ((/*active*/ ctx[3].text === /*t*/ ctx[15].text && /*active*/ ctx[3].time === /*t*/ ctx[15].time
     			? "active"
-    			: "") + " " + (/*t*/ ctx[15].done ? "done" : "") + " topic" + " svelte-evz5s"))) {
+    			: "") + " " + (/*t*/ ctx[15].done ? "done" : "") + " topic" + " svelte-1iaybvj"))) {
     				attr_dev(div, "class", div_class_value);
     			}
     		},
@@ -803,7 +803,7 @@ var app = (function () {
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; encrypted-media; picture-in-picture");
     			iframe.allowFullscreen = true;
-    			attr_dev(iframe, "class", "svelte-evz5s");
+    			attr_dev(iframe, "class", "svelte-1iaybvj");
     			add_location(iframe, file, 83, 0, 2087);
     		},
     		m: function mount(target, anchor) {
@@ -913,50 +913,50 @@ var app = (function () {
     			div6 = element("div");
     			button2 = element("button");
     			button2.textContent = "⚡";
-    			attr_dev(p, "class", " svelte-evz5s");
+    			attr_dev(p, "class", " svelte-1iaybvj");
     			add_location(p, file, 38, 2, 709);
     			attr_dev(div0, "id", "currentTopic");
-    			attr_dev(div0, "class", "svelte-evz5s");
+    			attr_dev(div0, "class", "svelte-1iaybvj");
     			add_location(div0, file, 37, 1, 683);
     			attr_dev(div1, "id", "themen");
-    			attr_dev(div1, "class", "svelte-evz5s");
+    			attr_dev(div1, "class", "svelte-1iaybvj");
     			add_location(div1, file, 40, 1, 775);
-    			attr_dev(span0, "class", " svelte-evz5s");
+    			attr_dev(span0, "class", " svelte-1iaybvj");
     			add_location(span0, file, 73, 4, 1877);
-    			attr_dev(button0, "class", " svelte-evz5s");
+    			attr_dev(button0, "class", " svelte-1iaybvj");
     			add_location(button0, file, 72, 3, 1833);
-    			attr_dev(span1, "class", " svelte-evz5s");
+    			attr_dev(span1, "class", " svelte-1iaybvj");
     			add_location(span1, file, 76, 4, 1969);
-    			attr_dev(button1, "class", " svelte-evz5s");
+    			attr_dev(button1, "class", " svelte-1iaybvj");
     			add_location(button1, file, 75, 3, 1924);
     			attr_dev(div2, "id", "control");
-    			attr_dev(div2, "class", "svelte-evz5s");
+    			attr_dev(div2, "class", "svelte-1iaybvj");
     			add_location(div2, file, 70, 1, 1794);
     			attr_dev(div3, "id", "material");
-    			attr_dev(div3, "class", "svelte-evz5s");
+    			attr_dev(div3, "class", "svelte-1iaybvj");
     			add_location(div3, file, 36, 0, 662);
     			attr_dev(div4, "id", "video");
-    			attr_dev(div4, "class", "svelte-evz5s");
+    			attr_dev(div4, "class", "svelte-1iaybvj");
     			add_location(div4, file, 81, 0, 2046);
     			attr_dev(textarea, "name", "notes");
     			attr_dev(textarea, "id", "");
     			attr_dev(textarea, "cols", "30");
     			attr_dev(textarea, "rows", "10");
     			attr_dev(textarea, "placeholder", "take notes here...");
-    			attr_dev(textarea, "class", "svelte-evz5s");
+    			attr_dev(textarea, "class", "svelte-1iaybvj");
     			add_location(textarea, file, 89, 1, 2359);
     			attr_dev(div5, "id", "pad");
-    			attr_dev(div5, "class", "svelte-evz5s");
+    			attr_dev(div5, "class", "svelte-1iaybvj");
     			add_location(div5, file, 88, 1, 2343);
-    			attr_dev(button2, "class", " svelte-evz5s");
+    			attr_dev(button2, "class", " svelte-1iaybvj");
     			add_location(button2, file, 92, 2, 2507);
     			attr_dev(div6, "id", "pad-controls");
-    			attr_dev(div6, "class", "svelte-evz5s");
+    			attr_dev(div6, "class", "svelte-1iaybvj");
     			add_location(div6, file, 91, 1, 2481);
     			attr_dev(div7, "id", "notes");
-    			attr_dev(div7, "class", "svelte-evz5s");
+    			attr_dev(div7, "class", "svelte-1iaybvj");
     			add_location(div7, file, 87, 0, 2325);
-    			attr_dev(main, "class", "svelte-evz5s");
+    			attr_dev(main, "class", "svelte-1iaybvj");
     			add_location(main, file, 35, 0, 655);
     		},
     		l: function claim(nodes) {

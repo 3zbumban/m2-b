@@ -117,6 +117,7 @@ main {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: baseline;
+	white-space: nowrap;
 }
 
 .active {
@@ -125,7 +126,8 @@ main {
 
 .done {
 	text-decoration: line-through;
-	text-decoration-color: black;
+	text-decoration-color: green;
+	opacity: 0.3;
 }
 
 span {
