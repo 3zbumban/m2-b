@@ -2,7 +2,6 @@
 # Created by https://www.gitignore.io/api/node
 # Edit at https://www.gitignore.io/?templates=node
 
-/public/build
 ### Node ###
 # Logs
 logs
@@ -109,4 +108,5 @@ dist/
 tmp/
 temp/
 
+public/build/
 # End of https://www.gitignore.io/api/node
