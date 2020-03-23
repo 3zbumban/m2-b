@@ -276,7 +276,16 @@ main {
 	#pad-controls {
 		display: flex;
 		flex-direction: column;
-		background-color: gray;
+		background: linear-gradient(153deg, #17c396, #6e17c3);
+		background-size: 400% 400%;
+
+		animation: moving-bg 15s ease infinite;
+
+		@keyframes moving-bg {
+			0%{background-position:93% 0%}
+			50%{background-position:0% 100%}
+			100%{background-position:93% 0%}
+		}
 	}
 }
 </style>
