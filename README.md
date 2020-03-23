@@ -112,9 +112,10 @@ surge public my-project.surge.sh
 
 * [x] save markdown files
 * [x] simple darkmode
-* [ ] favicon
+* [ ] reset storage button
 * [ ] better responsive grid (App.svelte > style > main)
 
 ### stretch
 
 * [ ] progress indicator
+* [ ] favicon
