@@ -13,7 +13,7 @@ let currentThema = localStorage.getItem("currentThema") ? JSON.parse(localStorag
 let currentVid = "";
 let active = {};
 let preview = false;
-let dark = true;
+let dark = localStorage.getItem("darkmode") ? JSON.parse(localStorage.getItem("darkmode")) : false;
 
 $: notes = JSON.parse(localStorage.getItem("notes")) ? JSON.parse(localStorage.getItem("notes")) : themen.map(el => `# ${el}\n\n`);
 $: next = currentThema<themen.length-1 ? currentThema+1 : 0;
@@ -48,6 +48,7 @@ function toggle(i) {
 
 function sync() {
 	window.localStorage.setItem("notes", JSON.stringify(notes));
+	window.localStorage.setItem("darkmode", JSON.stringify(dark));
 	window.localStorage.setItem("data", JSON.stringify(data));
 	window.localStorage.setItem("currentThema", JSON.stringify(currentThema));
 }
