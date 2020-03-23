@@ -195,6 +195,10 @@ function sync() {
 		background-color: rgba(230, 80, 22, 0.397);
 		}
 	}
+
+	path {
+		fill: white;
+	}
 }
 
 main {
