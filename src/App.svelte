@@ -1,6 +1,7 @@
 <script>
 import marked from "marked";
 import domPurify from "dompurify";
+import fileSaver from "file-saver";
 
 export let raw_data;
 
@@ -31,6 +32,11 @@ function go(dest) {
 function clickVid(event) {
 	console.log(event.target.href);
 	currentVid = event.target.href;
+}
+
+function saveFile() {
+	const blob = new Blob([notes[themen[currentThema]]], {type: "text/plain;charset=utf-8"});
+	fileSaver.saveTextAs(blob, "test.md");
 }
 
 function toggle(i) {
@@ -119,6 +125,7 @@ function sync() {
 		</div>
 	<div id="pad-controls">
 		<button class={preview ? "preview-btn-on" : ""} on:click={() => {preview = !preview}}>&#9889;</button>
+		<button class="" on:click={saveAs}>save</button>
 		<button class="gh" on:click={() => { window.open(gh_url)}}>
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="16"
 			height="16" viewBox="0 0 32 32">

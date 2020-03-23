@@ -110,6 +110,8 @@ surge public my-project.surge.sh
 
 ### todo
 
+* [ ] save markdown files
+* [ ] favicon
 * [ ] better responsive grid (App.svelte > style > main)
 
 ### stretch
