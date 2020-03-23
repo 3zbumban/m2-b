@@ -4,6 +4,7 @@
 
 ### Node ###
 # Logs
+pnpm-lock.yaml
 logs
 *.log
 npm-debug.log*

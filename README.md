@@ -117,3 +117,5 @@ surge public my-project.surge.sh
 
 * [ ] progress indicator
 * [ ] favicon
+
+* [sample](https://tex.s2cms.ru/g/f(x)%0AA_%7Bm%2Cn%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%0Aa_%7B1%2C1%7D%20%26%20a_%7B1%2C2%7D%20%26%20%5Ccdots%20%26%20a_%7B1%2Cn%7D%20%5C%5C%0Aa_%7B2%2C1%7D%20%26%20a_%7B2%2C2%7D%20%26%20%5Ccdots%20%26%20a_%7B2%2Cn%7D%20%5C%5C%0A%5Cvdots%20%20%26%20%5Cvdots%20%20%26%20%5Cddots%20%26%20%5Cvdots%20%20%5C%5C%0Aa_%7Bm%2C1%7D%20%26%20a_%7Bm%2C2%7D%20%26%20%5Ccdots%20%26%20a_%7Bm%2Cn%7D%0A%5Cend%7Bpmatrix%7D)
