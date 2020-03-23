@@ -13,6 +13,7 @@ let currentThema = localStorage.getItem("currentThema") ? JSON.parse(localStorag
 let currentVid = "";
 let active = {};
 let preview = false;
+let dark = true;
 
 $: notes = JSON.parse(localStorage.getItem("notes")) ? JSON.parse(localStorage.getItem("notes")) : themen.map(el => `# ${el}\n\n`);
 $: next = currentThema<themen.length-1 ? currentThema+1 : 0;
@@ -35,8 +36,9 @@ function clickVid(event) {
 }
 
 function saveFile() {
-	const blob = new Blob([notes[themen[currentThema]]], {type: "text/plain;charset=utf-8"});
-	fileSaver.saveTextAs(blob, "test.md");
+	console.log(`%c ${notes[currentThema]}`, "background-color: green;")
+	const blob = new Blob([notes[currentThema]], {type: "text/plain;charset=utf-8"});
+	fileSaver.saveAs(URL.createObjectURL(blob), `${themen[currentThema]}.md`);
 }
 
 function toggle(i) {
@@ -52,7 +54,7 @@ function sync() {
 
 </script>
 
-<main>
+<main class:dark>
 <div id="material">
 	<div id="currentTopic">
 		<p class="">{currentThema+1}: {themen[currentThema]}</p>
@@ -124,8 +126,15 @@ function sync() {
 	{/if}
 		</div>
 	<div id="pad-controls">
-		<button class={preview ? "preview-btn-on" : ""} on:click={() => {preview = !preview}}>&#9889;</button>
-		<button class="" on:click={saveAs}>save</button>
+		<button class={preview ? "preview-btn-on" : ""} on:click={() => {preview = !preview}}>👁‍🗨</button>
+		<button class="" on:click={saveFile}>💾</button>
+		<button class="" on:click={() => {dark = !dark}}>
+			{#if !dark}
+				<span>🌑</span>
+			{:else}
+				<span>🌞</span>
+			{/if}
+		</button>
 		<button class="gh" on:click={() => { window.open(gh_url)}}>
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="16"
 			height="16" viewBox="0 0 32 32">
@@ -145,6 +154,46 @@ function sync() {
 :global(body) {
 	padding: 0;
 	overflow: hidden;
+}
+
+.dark {
+	* {
+		border-color: lightblue;
+	}
+	div {
+		background-color: black;
+	}
+	textarea {
+		background-color: black;
+		color: white;
+	}
+
+	span {
+		color: white;
+	}
+
+	a {
+		color: lightblue;
+	}
+
+	p {
+		color: white;
+		text-decoration-color: white;
+	}
+	button {
+		color: white;
+		background-color: black;
+	}
+	img {
+		background-color: gray;
+		border-block-color: green;
+	}
+
+	.active {
+		* {
+		background-color: rgba(230, 80, 22, 0.397);
+		}
+	}
 }
 
 main {
@@ -250,7 +299,7 @@ main {
 	grid-row-start: 2;
 	grid-row-end: 3;
 	// background-color: red;
-	padding: 5px;
+	// padding: 5px;
 	display: flex;
 	flex-direction: row;
 	#pad {
