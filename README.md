@@ -1,7 +1,3 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
 # svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
@@ -97,7 +93,13 @@ surge public my-project.surge.sh
 * [m2](https://web.archive.org/web/20181218212329/https://www.bigdev.de/p/m2.html)
 * [m2-v2](https://web.archive.org/web/20200316212155/https://www.bigdev.de/p/m2.html)
 
-* youtube
+* [DOMPurify](https://github.com/cure53/DOMPurify)
+* [marked](https://github.com/markedjs/marked)
+* [normalize.css](https://necolas.github.io/normalize.css/)
+* [svelte](https://svelte.dev/docs)
+* [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess)
+
+* [youtube video resolution recomendations](https://support.google.com/youtube/answer/6375112?co=GENIE.Platform%3DDesktop&hl=en)
   * 2160p: 3840x2160
   * 1440p: 2560x1440
   * 1080p: 1920x1080
@@ -105,3 +107,11 @@ surge public my-project.surge.sh
   * 480p: 854x480
   * 360p: 640x360
   * 240p: 426x240
+
+### todo
+
+* [ ] better responsive grid (App.svelte > style > main)
+
+### stretch
+
+* [ ] progress indicator

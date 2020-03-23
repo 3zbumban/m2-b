@@ -6,11 +6,12 @@ export let raw_data;
 
 const data = localStorage.getItem("data") ? JSON.parse(localStorage.getItem("data")) : raw_data;
 const themen = Object.keys(data);
+const gh_url = "https://github.com/3zbumban/m2-b";
 
 let currentThema = localStorage.getItem("currentThema") ? JSON.parse(localStorage.getItem("currentThema")) : 0;
 let currentVid = "";
 let active = {};
-let prewiev = false;
+let preview = false;
 
 $: notes = JSON.parse(localStorage.getItem("notes")) ? JSON.parse(localStorage.getItem("notes")) : themen.map(el => `# ${el}\n\n`);
 $: next = currentThema<themen.length-1 ? currentThema+1 : 0;
@@ -106,7 +107,7 @@ function sync() {
 </div>
 <div id="notes">
 		<div id="pad">
-	{#if !prewiev}
+	{#if !preview}
 			<textarea bind:value={notes[currentThema]} name="notes" id="" cols="30" rows="10" placeholder="take notes here..."></textarea>
 	{:else}
 			<div id="preview">
@@ -117,7 +118,16 @@ function sync() {
 	{/if}
 		</div>
 	<div id="pad-controls">
-		<button class="" on:click={() => {prewiev = !prewiev}}>&#9889;</button>
+		<button class={preview ? "preview-btn-on" : ""} on:click={() => {preview = !preview}}>&#9889;</button>
+		<button class="gh" on:click={() => { window.open(gh_url)}}>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="16"
+			height="16" viewBox="0 0 32 32">
+			<path
+				d="M16 0c-8.84 0-16 7.16-16 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16zM25.5 25.5c-1.24 1.24-2.67 2.2-4.27 2.88-0.41 0.17-0.82 0.32-1.24 0.45v-2.4c0-1.26-0.43-2.19-1.3-2.78 0.54-0.05 1.04-0.12 1.49-0.22s0.93-0.23 1.44-0.41 0.96-0.39 1.36-0.63 0.79-0.56 1.16-0.95 0.68-0.83 0.93-1.33 0.45-1.09 0.59-1.78 0.22-1.46 0.22-2.29c0-1.61-0.53-2.99-1.58-4.12 0.48-1.25 0.43-2.61-0.16-4.08l-0.39-0.05c-0.27-0.03-0.76 0.08-1.46 0.34s-1.49 0.69-2.37 1.28c-1.24-0.34-2.53-0.52-3.86-0.52-1.34 0-2.62 0.17-3.84 0.52-0.55-0.37-1.07-0.68-1.57-0.93-0.49-0.24-0.89-0.41-1.19-0.5s-0.57-0.14-0.83-0.16-0.42-0.03-0.49-0.02-0.12 0.02-0.16 0.03c-0.58 1.48-0.63 2.84-0.16 4.08-1.05 1.14-1.58 2.51-1.58 4.13 0 0.83 0.07 1.6 0.22 2.29s0.34 1.29 0.59 1.78 0.56 0.94 0.93 1.33 0.76 0.71 1.16 0.95 0.85 0.46 1.36 0.63 0.98 0.31 1.44 0.41 0.95 0.17 1.49 0.22c-0.85 0.58-1.28 1.51-1.28 2.78v2.44c-0.47-0.14-0.94-0.31-1.39-0.5-1.6-0.68-3.04-1.65-4.27-2.88-1.24-1.24-2.2-2.67-2.88-4.27-0.7-1.65-1.05-3.41-1.05-5.23s0.36-3.57 1.06-5.23c0.68-1.6 1.65-3.04 2.88-4.27s2.67-2.2 4.27-2.88c1.66-0.7 3.42-1.05 5.23-1.05s3.58 0.36 5.23 1.06c1.6 0.68 3.04 1.65 4.27 2.88 1.24 1.24 2.2 2.67 2.88 4.27 0.7 1.66 1.06 3.42 1.06 5.23s-0.35 3.58-1.05 5.23c-0.68 1.6-1.65 3.04-2.88 4.27z"
+				fill="#000000">
+			</path>
+		</svg>
+		</button>
 	</div>
 </div>
 </main>
@@ -137,6 +147,7 @@ main {
   	min-width: 0;   /* NEW; needed for Firefox */
 	background-color: white;
 	display: grid;
+	// todo: optimize
 	grid-template-columns: 1fr 3fr;
 	grid-template-rows: 3fr 1fr;
 	// grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
@@ -172,6 +183,13 @@ main {
 	text-decoration: none;
 }
 
+.preview-btn-on {
+	background-color: lightgreen;
+}
+
+.gh {
+	margin-top: auto;
+}
 
 #material {
 	grid-column-start: 1;
@@ -249,6 +267,8 @@ main {
 	}
 	}
 	#pad-controls {
+		display: flex;
+		flex-direction: column;
 		background-color: gray;
 	}
 }
