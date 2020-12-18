@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@rollup/plugin-json": "^4.0.2",
-    "dompurify": "^2.0.8",
+    "dompurify": "^2.0.17",
     "file-saver": "^2.0.2",
     "marked": "^0.8.2",
     "normalize.css": "^8.0.1",
